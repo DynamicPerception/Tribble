@@ -756,7 +756,7 @@ L7__RA_series_cd.pdf</description>
 <pad name="GND" x="0" y="0.08" drill="2.9972" diameter="4.318"/>
 <pad name="GNDBREAK" x="4.7" y="3.08" drill="2.9972" diameter="3.556" rot="R90"/>
 <text x="-5.08" y="2.54" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<hole x="0" y="-4.5" drill="1.1"/>
+<hole x="0" y="-4.5" drill="1.6"/>
 </package>
 <package name="APLS_SKQ_MDS_PTH">
 <pad name="1" x="-5.15" y="0" drill="1.2" shape="long"/>
@@ -7299,6 +7299,24 @@ SSTX2500.pdf</description>
 <wire x1="15" y1="-17.5" x2="15" y2="2.5" width="0.127" layer="21"/>
 <text x="-15" y="2.75" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="SOT-457">
+<smd name="3" x="-1.2" y="-0.95" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="-1.2" y="0" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.2" y="0.95" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="1.2" y="-0.95" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="1.2" y="0" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="6" x="1.2" y="0.95" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-2" y1="1.6" x2="-0.4" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.4" y1="1.6" x2="2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2" y1="1.6" x2="2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.6" x2="-2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.6" x2="-0.4" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1" x2="0.4" y2="1" width="0.127" layer="21"/>
+<wire x1="0.4" y1="1" x2="0.4" y2="1.6" width="0.127" layer="21"/>
+<text x="-2" y="1.8" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RES">
@@ -8634,6 +8652,20 @@ SSTX2500.pdf</description>
 <pin name="1" x="0" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="0" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
+<symbol name="USBLC6-2">
+<pin name="I/O1A" x="-5.08" y="5.08" visible="pin" length="short"/>
+<pin name="GND" x="-5.08" y="2.54" visible="pin" length="short"/>
+<pin name="I/O2A" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="I/O1B" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VB" x="17.78" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="I/O2B" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="0.8128" layer="94" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="0.8128" layer="94" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
@@ -8974,6 +9006,32 @@ http://www.mouser.com/ProductDetail/Toshiba/TB6559FGO8EL/?qs=sGAEpiMZZMtKB4wrjsn
 <connects>
 <connect gate="G$1" pin="1" pad="1A 1B 1C 1D"/>
 <connect gate="G$1" pin="2" pad="2A 2B 2C 2D"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IP4234CZ6" prefix="U" uservalue="yes">
+<description>Mouser Part #: 	771-IP4234CZ6125
+Manufacturer Part #: IP4234CZ6,125
+Manufacturer: NXP Semiconductors
+Description: ESD Suppressors Single USB 2.0 ESD Protection 6-Pin
+
+http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZZMvxHShE6Whpu7QUdHOfUl1T0xbl582qhFk%3d</description>
+<gates>
+<gate name="G$1" symbol="USBLC6-2" x="-5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="SOT-457" package="SOT-457">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="I/O1A" pad="1"/>
+<connect gate="G$1" pin="I/O1B" pad="3"/>
+<connect gate="G$1" pin="I/O2A" pad="4"/>
+<connect gate="G$1" pin="I/O2B" pad="6"/>
+<connect gate="G$1" pin="VB" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14536,16 +14594,12 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </classes>
 <parts>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB" device="-PTH-MICROB" value="10118193-0001LF"/>
-<part name="CG2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="CG1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="R4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="22"/>
-<part name="R5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="22"/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="V_REG_MIC2920" device="" value="TS2937CW50"/>
-<part name="C8" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
+<part name="C8" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF 35V"/>
 <part name="C16" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="C17" library="SparkFun" deviceset="CAP_POL" device="1206" value="2.2uF"/>
 <part name="C18" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="PWR" library="parkers_parts" deviceset="DC_JACK" device="PTH"/>
+<part name="PWR" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-A-LT"/>
 <part name="X1" library="kyocera-crystals" deviceset="3.2X2.5MMCRYSTAL" device=""/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0402" value="6pF"/>
 <part name="C4" library="SparkFun" deviceset="CAP" device="0402" value="6pF"/>
@@ -14573,7 +14627,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </part>
 <part name="C19" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="R15" library="parkers_parts" deviceset="RESISTOR" device="0402" value="330"/>
-<part name="J4" library="amphenol ethernet" deviceset="RJHS-538X" device=""/>
+<part name="J4" library="amphenol ethernet" deviceset="RJHS-538X" device="" value="RJHSE-5381"/>
 <part name="R10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="330"/>
 <part name="R9" library="parkers_parts" deviceset="RESISTOR" device="0402" value="120"/>
 <part name="U8" library="parkers_parts" deviceset="TPD2E007" device="DCK"/>
@@ -14585,16 +14639,16 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <part name="U7" library="parkers_parts" deviceset="TB6559FG" device="" value="TB6559FG"/>
 <part name="U3" library="parkers_parts" deviceset="TB6559FG" device="" value="TB6559FG"/>
 <part name="J3" library="parkers_parts" deviceset="TRS_STEREO_JACK" device="SJ1-2503A" value="SJ1-2503A"/>
+<part name="CG2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="CG3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="CG4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="MOT0" library="parkers_parts" deviceset="DC_JACK" device="PTH"/>
-<part name="MOT1" library="parkers_parts" deviceset="DC_JACK" device="PTH"/>
-<part name="MOT2" library="parkers_parts" deviceset="DC_JACK" device="PTH"/>
+<part name="MOT0" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-B-LT"/>
+<part name="MOT1" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-B-LT"/>
+<part name="MOT2" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-B-LT"/>
 <part name="C15" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="C13" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="C12" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="C11" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="C10" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
+<part name="C11" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF 35V"/>
+<part name="C10" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF 35V"/>
 <part name="C9" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="R8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="R7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
@@ -14602,7 +14656,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <part name="R3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="R2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="R1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
-<part name="D1" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG3030EP"/>
+<part name="D1" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG6010EP"/>
 <part name="U$1" library="parkers_parts" deviceset="DP_FRAME" device="">
 <attribute name="DNAME" value="Parker Dillmann"/>
 <attribute name="PNAME" value="MX-2+1 "/>
@@ -14621,18 +14675,23 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <part name="CG5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="CG6" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="R23" library="parkers_parts" deviceset="RESISTOR" device="0402" value="5K"/>
-<part name="CG7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="IC1" library="at90usb" deviceset="AT90USB647-*" device="AU" value="AT90USB646-AU"/>
+<part name="U11" library="at90usb" deviceset="AT90USB647-*" device="AU" value="AT90USB646-AU"/>
 <part name="R22" library="parkers_parts" deviceset="RESISTOR" device="0402" value="0"/>
 <part name="C22" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value="1uF"/>
 <part name="C23" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="R24" library="parkers_parts" deviceset="RESISTOR" device="0402" value="0"/>
 <part name="C5" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="C6" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="R25" library="parkers_parts" deviceset="RESISTOR" device="0402" value="36K"/>
-<part name="R26" library="parkers_parts" deviceset="RESISTOR" device="0402" value="20K"/>
+<part name="R5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="20K"/>
+<part name="R4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4K"/>
 <part name="U1" library="at90usb" deviceset="AT90USB647-*" device="MU" value="AT90USB646-MU"/>
 <part name="JMP" library="parkers_parts" deviceset="P1X02" device="PH"/>
+<part name="D2" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG6010EP"/>
+<part name="CG4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="U10" library="parkers_parts" deviceset="IP4234CZ6" device="SOT-457" value="IP4234CZ6"/>
+<part name="CG1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="C14" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -14640,13 +14699,13 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="431.8" y1="-22.86" x2="431.8" y2="149.86" width="0.1524" layer="94"/>
 <wire x1="-129.54" y1="149.86" x2="-129.54" y2="-48.26" width="0.1524" layer="94"/>
 <wire x1="-129.54" y1="-48.26" x2="304.8" y2="-48.26" width="0.1524" layer="94"/>
+<wire x1="-129.54" y1="149.86" x2="-129.54" y2="162.56" width="0.1524" layer="94"/>
+<wire x1="-129.54" y1="162.56" x2="10.16" y2="162.56" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="162.56" x2="431.8" y2="162.56" width="0.1524" layer="94"/>
+<wire x1="431.8" y1="162.56" x2="431.8" y2="149.86" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="-109.22" y="2.54" rot="R180"/>
-<instance part="CG2" gate="G$1" x="-73.66" y="-17.78" rot="R90"/>
-<instance part="CG1" gate="G$1" x="-83.82" y="-17.78" rot="R90"/>
-<instance part="R4" gate="G$1" x="-60.96" y="0"/>
-<instance part="R5" gate="G$1" x="-60.96" y="-7.62"/>
 <instance part="U4" gate="G$1" x="22.86" y="-5.08" smashed="yes">
 <attribute name="NAME" x="25.4" y="-12.7" size="0.8128" layer="95" font="vector"/>
 <attribute name="VALUE" x="25.4" y="-15.24" size="0.8128" layer="96" font="vector"/>
@@ -14726,8 +14785,8 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <instance part="U7" gate="G$1" x="314.96" y="10.16"/>
 <instance part="U3" gate="G$1" x="213.36" y="-27.94"/>
 <instance part="J3" gate="G$1" x="88.9" y="-12.7"/>
-<instance part="CG3" gate="G$1" x="119.38" y="-20.32" rot="R90"/>
-<instance part="CG4" gate="G$1" x="111.76" y="-20.32" rot="R90"/>
+<instance part="CG2" gate="G$1" x="119.38" y="-20.32" rot="R90"/>
+<instance part="CG3" gate="G$1" x="111.76" y="-20.32" rot="R90"/>
 <instance part="MOT0" gate="G$1" x="251.46" y="5.08" rot="MR0"/>
 <instance part="MOT1" gate="G$1" x="353.06" y="5.08" rot="MR0"/>
 <instance part="MOT2" gate="G$1" x="251.46" y="-33.02" rot="MR0"/>
@@ -14768,20 +14827,25 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <instance part="CG5" gate="G$1" x="281.94" y="101.6" rot="R90"/>
 <instance part="CG6" gate="G$1" x="271.78" y="101.6" rot="R90"/>
 <instance part="R23" gate="G$1" x="302.26" y="76.2" rot="R270"/>
-<instance part="CG7" gate="G$1" x="-93.98" y="-17.78" rot="R90"/>
-<instance part="IC1" gate="G$1" x="25.4" y="88.9"/>
+<instance part="U11" gate="G$1" x="25.4" y="88.9"/>
 <instance part="R22" gate="G$1" x="-60.96" y="15.24"/>
 <instance part="C22" gate="G$1" x="-27.94" y="73.66" rot="R90"/>
 <instance part="C23" gate="G$1" x="-27.94" y="101.6"/>
 <instance part="R24" gate="G$1" x="-38.1" y="93.98"/>
 <instance part="C5" gate="G$1" x="-27.94" y="116.84"/>
 <instance part="C6" gate="G$1" x="-38.1" y="116.84"/>
-<instance part="R25" gate="G$1" x="-104.14" y="93.98" rot="R90"/>
-<instance part="R26" gate="G$1" x="-104.14" y="78.74" rot="R90"/>
+<instance part="R5" gate="G$1" x="-104.14" y="93.98" rot="R90"/>
+<instance part="R4" gate="G$1" x="-104.14" y="78.74" rot="R90"/>
 <instance part="U1" gate="G$1" x="497.84" y="58.42"/>
 <instance part="JMP" gate="G$1" x="-43.18" y="5.08" smashed="yes">
 <attribute name="NAME" x="-46.99" y="10.795" size="0.8128" layer="95" font="vector"/>
 </instance>
+<instance part="D2" gate="G$1" x="388.62" y="132.08"/>
+<instance part="CG4" gate="G$1" x="322.58" y="132.08" rot="R180"/>
+<instance part="CG7" gate="G$1" x="322.58" y="127" rot="R180"/>
+<instance part="U10" gate="G$1" x="-96.52" y="-15.24" rot="R270"/>
+<instance part="CG1" gate="G$1" x="386.08" y="139.7" rot="R180"/>
+<instance part="C14" gate="G$1" x="-93.98" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -14889,12 +14953,12 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="337.82" y="104.14" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC@1"/>
+<pinref part="U11" gate="G$1" pin="VCC@1"/>
 <wire x1="-7.62" y1="127" x2="-17.78" y2="127" width="0.1524" layer="91"/>
 <label x="-17.78" y="127" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC@2"/>
+<pinref part="U11" gate="G$1" pin="VCC@2"/>
 <wire x1="-7.62" y1="124.46" x2="-17.78" y2="124.46" width="0.1524" layer="91"/>
 <label x="-17.78" y="124.46" size="0.8128" layer="95" font="vector"/>
 <wire x1="-17.78" y1="124.46" x2="-22.86" y2="124.46" width="0.1524" layer="91"/>
@@ -14908,12 +14972,12 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <junction x="-27.94" y="121.92"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="AVCC"/>
+<pinref part="U11" gate="G$1" pin="AVCC"/>
 <wire x1="-7.62" y1="99.06" x2="-17.78" y2="99.06" width="0.1524" layer="91"/>
 <label x="-17.78" y="99.06" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="UVCC"/>
+<pinref part="U11" gate="G$1" pin="UVCC"/>
 <wire x1="-7.62" y1="76.2" x2="-17.78" y2="76.2" width="0.1524" layer="91"/>
 <label x="-17.78" y="76.2" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15035,6 +15099,14 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="J4" gate="G$1" pin="C1"/>
 <wire x1="342.9" y1="124.46" x2="332.74" y2="124.46" width="0.1524" layer="91"/>
 <label x="335.28" y="124.46" size="0.8128" layer="95" font="vector"/>
+<pinref part="CG4" gate="G$1" pin="2"/>
+<wire x1="317.5" y1="132.08" x2="314.96" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="132.08" x2="314.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="127" x2="314.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="124.46" x2="332.74" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="CG7" gate="G$1" pin="2"/>
+<wire x1="317.5" y1="127" x2="314.96" y2="127" width="0.1524" layer="91"/>
+<junction x="314.96" y="127"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="C0"/>
@@ -15114,10 +15186,10 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <segment>
 <pinref part="J3" gate="G$1" pin="S"/>
 <label x="99.06" y="-7.62" size="0.8128" layer="95" font="vector"/>
-<pinref part="CG4" gate="G$1" pin="1"/>
+<pinref part="CG3" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="-25.4" x2="111.76" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-27.94" x2="119.38" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="CG3" gate="G$1" pin="1"/>
+<pinref part="CG2" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="-27.94" x2="119.38" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-27.94" x2="127" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="-27.94" x2="127" y2="-7.62" width="0.1524" layer="91"/>
@@ -15178,12 +15250,12 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="302.26" y="66.04" size="0.8128" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND@1"/>
+<pinref part="U11" gate="G$1" pin="GND@1"/>
 <wire x1="-7.62" y1="119.38" x2="-17.78" y2="119.38" width="0.1524" layer="91"/>
 <label x="-17.78" y="119.38" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND@2"/>
+<pinref part="U11" gate="G$1" pin="GND@2"/>
 <wire x1="-7.62" y1="116.84" x2="-17.78" y2="116.84" width="0.1524" layer="91"/>
 <label x="-17.78" y="116.84" size="0.8128" layer="95" font="vector"/>
 <wire x1="-17.78" y1="116.84" x2="-22.86" y2="116.84" width="0.1524" layer="91"/>
@@ -15207,9 +15279,14 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="-48.26" y="93.98" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="-104.14" y1="73.66" x2="-104.14" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-104.14" y1="73.66" x2="-104.14" y2="71.12" width="0.1524" layer="91"/>
 <label x="-104.14" y="68.58" size="0.8128" layer="95" font="vector"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="-104.14" y1="71.12" x2="-104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="76.2" x2="-93.98" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="71.12" x2="-104.14" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-104.14" y="71.12"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@1"/>
@@ -15221,10 +15298,20 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="464.82" y1="86.36" x2="454.66" y2="86.36" width="0.1524" layer="91"/>
 <label x="454.66" y="86.36" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="ANODE"/>
+<wire x1="391.16" y1="132.08" x2="398.78" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="132.08" x2="398.78" y2="129.54" width="0.1524" layer="91"/>
+<label x="398.78" y="129.54" size="0.8128" layer="95" font="vector"/>
+<pinref part="CG1" gate="G$1" pin="1"/>
+<wire x1="391.16" y1="139.7" x2="398.78" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="139.7" x2="398.78" y2="132.08" width="0.1524" layer="91"/>
+<junction x="398.78" y="132.08"/>
+</segment>
 </net>
 <net name="AREF" class="4">
 <segment>
-<pinref part="IC1" gate="G$1" pin="AREF"/>
+<pinref part="U11" gate="G$1" pin="AREF"/>
 <wire x1="-7.62" y1="101.6" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
 <label x="-17.78" y="101.6" size="0.8128" layer="95" font="vector"/>
 <wire x1="-17.78" y1="101.6" x2="-20.32" y2="101.6" width="0.1524" layer="91"/>
@@ -15282,7 +15369,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-104.14" y1="101.6" x2="-104.14" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="101.6" x2="-104.14" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="104.14" x2="-109.22" y2="104.14" width="0.1524" layer="91"/>
@@ -15291,40 +15378,40 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="D-" class="0">
 <segment>
-<wire x1="-68.58" y1="-2.54" x2="-73.66" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="-2.54" x2="-106.68" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="-12.7" x2="-73.66" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-73.66" y="-2.54"/>
 <pinref part="J1" gate="G$1" pin="D-"/>
-<pinref part="CG2" gate="G$1" pin="2"/>
-<wire x1="-68.58" y1="-2.54" x2="-68.58" y2="0" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-68.58" y1="0" x2="-66.04" y2="0" width="0.1524" layer="91"/>
-<label x="-88.9" y="-2.54" size="0.8128" layer="95" font="vector"/>
+<label x="-104.14" y="-2.54" size="0.8128" layer="95" font="vector"/>
+<wire x1="-101.6" y1="-2.54" x2="-106.68" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-2.54" x2="-101.6" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-33.02" x2="-101.6" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="I/O2B"/>
+<wire x1="-101.6" y1="-35.56" x2="-96.52" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="-35.56" x2="-96.52" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D+" class="0">
 <segment>
-<wire x1="-68.58" y1="-5.08" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-5.08" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-12.7" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-5.08"/>
 <pinref part="J1" gate="G$1" pin="D+"/>
-<pinref part="CG1" gate="G$1" pin="2"/>
-<wire x1="-68.58" y1="-5.08" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-68.58" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-88.9" y="-5.08" size="0.8128" layer="95" font="vector"/>
+<wire x1="-91.44" y1="-5.08" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-99.06" y="-5.08" size="0.8128" layer="95" font="vector"/>
+<pinref part="U10" gate="G$1" pin="I/O1A"/>
+<wire x1="-91.44" y1="-5.08" x2="-91.44" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RD-" class="0">
 <segment>
-<wire x1="-55.88" y1="0" x2="-45.72" y2="0" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<label x="-48.26" y="0" size="0.8128" layer="95" font="vector"/>
+<wire x1="-53.34" y1="-2.54" x2="-45.72" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-48.26" y="-2.54" size="0.8128" layer="95" font="vector"/>
+<wire x1="-68.58" y1="-2.54" x2="-63.5" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="-2.54" x2="-68.58" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="I/O2A"/>
+<wire x1="-96.52" y1="-10.16" x2="-96.52" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="-7.62" x2="-81.28" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-7.62" x2="-81.28" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-2.54" x2="-71.12" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="D-"/>
+<pinref part="U11" gate="G$1" pin="D-"/>
 <wire x1="-7.62" y1="86.36" x2="-17.78" y2="86.36" width="0.1524" layer="91"/>
 <label x="-17.78" y="86.36" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15337,11 +15424,17 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <net name="RD+" class="0">
 <segment>
 <wire x1="-55.88" y1="-7.62" x2="-45.72" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 <label x="-48.26" y="-7.62" size="0.8128" layer="95" font="vector"/>
+<wire x1="-68.58" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="I/O1B"/>
+<wire x1="-91.44" y1="-33.02" x2="-91.44" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-35.56" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-35.56" x2="-76.2" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-7.62" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-7.62" x2="-55.88" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="D+"/>
+<pinref part="U11" gate="G$1" pin="D+"/>
 <wire x1="-7.62" y1="88.9" x2="-17.78" y2="88.9" width="0.1524" layer="91"/>
 <label x="-17.78" y="88.9" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15358,7 +15451,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="309.88" y="81.28" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD3(TXD1/INT3)"/>
+<pinref part="U11" gate="G$1" pin="PD3(TXD1/INT3)"/>
 <wire x1="58.42" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="63.5" y="63.5" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15377,7 +15470,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="180.34" y1="20.32" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA6(AD6)"/>
+<pinref part="U11" gate="G$1" pin="PA6(AD6)"/>
 <wire x1="68.58" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <label x="63.5" y="139.7" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15396,7 +15489,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="175.26" y1="-15.24" x2="175.26" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA5(AD5)"/>
+<pinref part="U11" gate="G$1" pin="PA5(AD5)"/>
 <wire x1="58.42" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
 <label x="63.5" y="137.16" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15422,7 +15515,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="309.88" y="88.9" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD2(RXD1/INT2)"/>
+<pinref part="U11" gate="G$1" pin="PD2(RXD1/INT2)"/>
 <wire x1="68.58" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 <label x="63.5" y="60.96" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15440,14 +15533,16 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="-93.98" y1="0" x2="-73.66" y2="0" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="7.62" x2="-71.12" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="CG7" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="-12.7" x2="-93.98" y2="0" width="0.1524" layer="91"/>
-<junction x="-93.98" y="0"/>
 <wire x1="-71.12" y1="7.62" x2="-43.18" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="JMP" gate="G$1" pin="1"/>
+<pinref part="U10" gate="G$1" pin="VB"/>
+<wire x1="-93.98" y1="-33.02" x2="-93.98" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="-38.1" x2="-73.66" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-38.1" x2="-73.66" y2="0" width="0.1524" layer="91"/>
+<junction x="-73.66" y="0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VBUS"/>
+<pinref part="U11" gate="G$1" pin="VBUS"/>
 <wire x1="-7.62" y1="71.12" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
 <label x="-17.78" y="71.12" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15459,7 +15554,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="UCAP" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="UCAP"/>
+<pinref part="U11" gate="G$1" pin="UCAP"/>
 <wire x1="-17.78" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
 <label x="-17.78" y="73.66" size="0.8128" layer="95" font="vector"/>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -15486,7 +15581,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="167.64" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF0(ADC0)"/>
+<pinref part="U11" gate="G$1" pin="PF0(ADC0)"/>
 <wire x1="-7.62" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="33.02" x2="-17.78" y2="33.02" width="0.1524" layer="91"/>
 <label x="-17.78" y="33.02" size="0.8128" layer="95" font="vector"/>
@@ -15600,7 +15695,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC6(A14/OC.3A)"/>
+<pinref part="U11" gate="G$1" pin="PC6(A14/OC.3A)"/>
 <wire x1="58.42" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
 <label x="63.5" y="93.98" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15675,7 +15770,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="535.94" y="20.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE7(INT7/AIN1/UVCON)"/>
+<pinref part="U11" gate="G$1" pin="PE7(INT7/AIN1/UVCON)"/>
 <wire x1="58.42" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <label x="63.5" y="50.8" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15687,7 +15782,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="193.04" y="124.46" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE3(IUID)"/>
+<pinref part="U11" gate="G$1" pin="PE3(IUID)"/>
 <wire x1="58.42" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
 <label x="63.5" y="40.64" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15723,7 +15818,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="144.78" y="76.2" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC5(A13/OC.3B)"/>
+<pinref part="U11" gate="G$1" pin="PC5(A13/OC.3B)"/>
 <wire x1="68.58" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <label x="63.5" y="91.44" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15740,7 +15835,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="144.78" y="71.12" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC4(A12/OC.3C)"/>
+<pinref part="U11" gate="G$1" pin="PC4(A12/OC.3C)"/>
 <wire x1="58.42" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
 <label x="63.5" y="88.9" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15757,7 +15852,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="144.78" y="58.42" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC0(A8)"/>
+<pinref part="U11" gate="G$1" pin="PC0(A8)"/>
 <wire x1="58.42" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
 <label x="63.5" y="78.74" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15774,7 +15869,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="144.78" y="55.88" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC1(A9)"/>
+<pinref part="U11" gate="G$1" pin="PC1(A9)"/>
 <wire x1="68.58" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="63.5" y="81.28" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15791,7 +15886,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="144.78" y="53.34" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC2(A10)"/>
+<pinref part="U11" gate="G$1" pin="PC2(A10)"/>
 <wire x1="58.42" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <label x="63.5" y="83.82" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15808,7 +15903,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="144.78" y="50.8" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC3(A11/T.3)"/>
+<pinref part="U11" gate="G$1" pin="PC3(A11/T.3)"/>
 <wire x1="68.58" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="63.5" y="86.36" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15865,9 +15960,12 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="J4" gate="G$1" pin="8"/>
 <wire x1="365.76" y1="134.62" x2="375.92" y2="134.62" width="0.1524" layer="91"/>
 <label x="370.84" y="134.62" size="0.8128" layer="95" font="vector"/>
+<pinref part="CG1" gate="G$1" pin="2"/>
+<wire x1="381" y1="139.7" x2="375.92" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="139.7" x2="375.92" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD0(OC.0B/SCL/INT0)"/>
+<pinref part="U11" gate="G$1" pin="PD0(OC.0B/SCL/INT0)"/>
 <wire x1="68.58" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
 <label x="63.5" y="55.88" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15882,9 +15980,11 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="332.74" y1="127" x2="342.9" y2="127" width="0.1524" layer="91"/>
 <label x="335.28" y="127" size="0.8128" layer="95" font="vector"/>
+<pinref part="CG7" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="127" x2="327.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD1(OC.2B/SDA/INT1)"/>
+<pinref part="U11" gate="G$1" pin="PD1(OC.2B/SDA/INT1)"/>
 <wire x1="58.42" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <label x="63.5" y="58.42" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15899,9 +15999,13 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="342.9" y1="129.54" x2="332.74" y2="129.54" width="0.1524" layer="91"/>
 <label x="335.28" y="129.54" size="0.8128" layer="95" font="vector"/>
+<wire x1="332.74" y1="129.54" x2="330.2" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="129.54" x2="330.2" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="CG4" gate="G$1" pin="1"/>
+<wire x1="330.2" y1="132.08" x2="327.66" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD7(T0)"/>
+<pinref part="U11" gate="G$1" pin="PD7(T0)"/>
 <wire x1="58.42" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 <label x="63.5" y="73.66" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15920,6 +16024,9 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="370.84" y="132.08" size="0.8128" layer="95" font="vector"/>
 <wire x1="365.76" y1="132.08" x2="381" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="381" y1="129.54" x2="381" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="CATHODE"/>
+<wire x1="381" y1="132.08" x2="383.54" y2="132.08" width="0.1524" layer="91"/>
+<junction x="381" y="132.08"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="IN"/>
@@ -15953,7 +16060,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="302.26" y1="83.82" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD4(ICP1)"/>
+<pinref part="U11" gate="G$1" pin="PD4(ICP1)"/>
 <wire x1="68.58" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
 <label x="63.5" y="66.04" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15979,7 +16086,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="281.94" y1="20.32" x2="281.94" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA7(AD7)"/>
+<pinref part="U11" gate="G$1" pin="PA7(AD7)"/>
 <wire x1="58.42" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
 <label x="63.5" y="142.24" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -15998,7 +16105,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="175.26" y1="22.86" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA3(AD3)"/>
+<pinref part="U11" gate="G$1" pin="PA3(AD3)"/>
 <wire x1="58.42" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
 <label x="63.5" y="132.08" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16017,7 +16124,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="276.86" y1="22.86" x2="276.86" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA4(AD4)"/>
+<pinref part="U11" gate="G$1" pin="PA4(AD4)"/>
 <wire x1="68.58" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
 <label x="63.5" y="134.62" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16036,7 +16143,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="180.34" y1="-17.78" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB0(SS/PCINT0)"/>
+<pinref part="U11" gate="G$1" pin="PB0(SS/PCINT0)"/>
 <wire x1="58.42" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 <label x="63.5" y="101.6" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16072,11 +16179,11 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="J3" gate="G$1" pin="T"/>
 <wire x1="93.98" y1="-12.7" x2="111.76" y2="-12.7" width="0.1524" layer="91"/>
 <label x="99.06" y="-12.7" size="0.8128" layer="95" font="vector"/>
-<pinref part="CG4" gate="G$1" pin="2"/>
+<pinref part="CG3" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="-12.7" x2="111.76" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB7(PCINT7/OC.0A/OC.1C)"/>
+<pinref part="U11" gate="G$1" pin="PB7(PCINT7/OC.0A/OC.1C)"/>
 <wire x1="58.42" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
 <label x="63.5" y="119.38" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16090,12 +16197,12 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <segment>
 <pinref part="J3" gate="G$1" pin="R"/>
 <label x="99.06" y="-10.16" size="0.8128" layer="95" font="vector"/>
-<pinref part="CG3" gate="G$1" pin="2"/>
+<pinref part="CG2" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="-10.16" x2="119.38" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-10.16" x2="119.38" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB6(PCINT6/OC.1B)"/>
+<pinref part="U11" gate="G$1" pin="PB6(PCINT6/OC.1B)"/>
 <wire x1="58.42" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
 <label x="63.5" y="116.84" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16175,7 +16282,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="195.58" y="-20.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA2(AD2)"/>
+<pinref part="U11" gate="G$1" pin="PA2(AD2)"/>
 <wire x1="68.58" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="63.5" y="129.54" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16192,7 +16299,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="195.58" y="17.78" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA0(AD0)"/>
+<pinref part="U11" gate="G$1" pin="PA0(AD0)"/>
 <wire x1="68.58" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 <label x="63.5" y="124.46" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16209,7 +16316,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="297.18" y="17.78" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA1(AD1)"/>
+<pinref part="U11" gate="G$1" pin="PA1(AD1)"/>
 <wire x1="58.42" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
 <label x="63.5" y="127" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16227,7 +16334,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="R11" gate="G$1" pin="2"/>
 <label x="-63.5" y="129.54" size="0.8128" layer="95" font="vector"/>
 <wire x1="-48.26" y1="129.54" x2="-38.1" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="RESET"/>
+<pinref part="U11" gate="G$1" pin="RESET"/>
 <wire x1="-7.62" y1="142.24" x2="-17.78" y2="142.24" width="0.1524" layer="91"/>
 <label x="-17.78" y="142.24" size="0.8128" layer="95" font="vector"/>
 <wire x1="-38.1" y1="129.54" x2="-38.1" y2="142.24" width="0.1524" layer="91"/>
@@ -16258,7 +16365,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="-76.2" y1="139.7" x2="-76.2" y2="127" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="127" x2="-33.02" y2="127" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="127" x2="-33.02" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="XTAL2"/>
+<pinref part="U11" gate="G$1" pin="XTAL2"/>
 <wire x1="-7.62" y1="137.16" x2="-17.78" y2="137.16" width="0.1524" layer="91"/>
 <label x="-17.78" y="137.16" size="0.8128" layer="95" font="vector"/>
 <wire x1="-33.02" y1="137.16" x2="-17.78" y2="137.16" width="0.1524" layer="91"/>
@@ -16283,7 +16390,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <wire x1="-78.74" y1="134.62" x2="-78.74" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="124.46" x2="-30.48" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="124.46" x2="-30.48" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="XTAL1"/>
+<pinref part="U11" gate="G$1" pin="XTAL1"/>
 <wire x1="-7.62" y1="134.62" x2="-17.78" y2="134.62" width="0.1524" layer="91"/>
 <label x="-17.78" y="134.62" size="0.8128" layer="95" font="vector"/>
 <wire x1="-30.48" y1="134.62" x2="-17.78" y2="134.62" width="0.1524" layer="91"/>
@@ -16296,7 +16403,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="UGND" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="UGND"/>
+<pinref part="U11" gate="G$1" pin="UGND"/>
 <wire x1="-7.62" y1="78.74" x2="-17.78" y2="78.74" width="0.1524" layer="91"/>
 <label x="-17.78" y="78.74" size="0.8128" layer="95" font="vector"/>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -16311,19 +16418,11 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="-66.04" y1="15.24" x2="-76.2" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="15.24" x2="-76.2" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="2.54" x2="-96.52" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="-83.82" y1="-27.94" x2="-83.82" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="-27.94" x2="-83.82" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="-22.86" x2="-73.66" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-81.28" y="-27.94" size="0.8128" layer="95" font="vector"/>
-<pinref part="CG1" gate="G$1" pin="1"/>
-<pinref part="CG2" gate="G$1" pin="1"/>
-<pinref part="CG7" gate="G$1" pin="1"/>
-<wire x1="-93.98" y1="-22.86" x2="-93.98" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-27.94" x2="-83.82" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-27.94"/>
+<wire x1="-76.2" y1="2.54" x2="-93.98" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="GND"/>
+<wire x1="-93.98" y1="2.54" x2="-96.52" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="-10.16" x2="-93.98" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-93.98" y="2.54"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="UGND"/>
@@ -16333,7 +16432,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PF7" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF7(ADC7/TDI)"/>
+<pinref part="U11" gate="G$1" pin="PF7(ADC7/TDI)"/>
 <wire x1="-7.62" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
 <label x="-17.78" y="50.8" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16345,7 +16444,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PF6" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF6(ADC6/TDO)"/>
+<pinref part="U11" gate="G$1" pin="PF6(ADC6/TDO)"/>
 <wire x1="-17.78" y1="48.26" x2="-7.62" y2="48.26" width="0.1524" layer="91"/>
 <label x="-17.78" y="48.26" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16357,7 +16456,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PF5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF5(ADC5/TMS)"/>
+<pinref part="U11" gate="G$1" pin="PF5(ADC5/TMS)"/>
 <wire x1="-7.62" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 <label x="-17.78" y="45.72" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16369,7 +16468,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PF4" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF4(ADC4/TCK)"/>
+<pinref part="U11" gate="G$1" pin="PF4(ADC4/TCK)"/>
 <wire x1="-17.78" y1="43.18" x2="-7.62" y2="43.18" width="0.1524" layer="91"/>
 <label x="-17.78" y="43.18" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16381,7 +16480,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PF3" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF3(ADC3)"/>
+<pinref part="U11" gate="G$1" pin="PF3(ADC3)"/>
 <wire x1="-7.62" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
 <label x="-17.78" y="40.64" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16393,7 +16492,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PF2" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF2(ADC2)"/>
+<pinref part="U11" gate="G$1" pin="PF2(ADC2)"/>
 <wire x1="-17.78" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
 <label x="-17.78" y="38.1" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16405,7 +16504,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PC7" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC7(A15/IC.3/CLK0)"/>
+<pinref part="U11" gate="G$1" pin="PC7(A15/IC.3/CLK0)"/>
 <wire x1="68.58" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 <label x="63.5" y="96.52" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16417,7 +16516,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PE6" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE6(INT6/AIN0)"/>
+<pinref part="U11" gate="G$1" pin="PE6(INT6/AIN0)"/>
 <wire x1="68.58" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 <label x="63.5" y="48.26" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16429,7 +16528,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PE5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE5(INT5/TOSC2)"/>
+<pinref part="U11" gate="G$1" pin="PE5(INT5/TOSC2)"/>
 <wire x1="58.42" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
 <label x="63.5" y="45.72" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16441,7 +16540,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PE4" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE4(INT4/TOSC1)"/>
+<pinref part="U11" gate="G$1" pin="PE4(INT4/TOSC1)"/>
 <wire x1="68.58" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <label x="63.5" y="43.18" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16453,7 +16552,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PE2" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE2(ALE/HWB)"/>
+<pinref part="U11" gate="G$1" pin="PE2(ALE/HWB)"/>
 <wire x1="68.58" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <label x="63.5" y="38.1" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16465,7 +16564,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PE1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE1(/RD)"/>
+<pinref part="U11" gate="G$1" pin="PE1(/RD)"/>
 <wire x1="58.42" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 <label x="63.5" y="35.56" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16477,7 +16576,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PE0" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PE0(/WR)"/>
+<pinref part="U11" gate="G$1" pin="PE0(/WR)"/>
 <wire x1="68.58" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
 <label x="63.5" y="33.02" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16489,7 +16588,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="AGND" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND@3"/>
+<pinref part="U11" gate="G$1" pin="GND@3"/>
 <wire x1="-7.62" y1="96.52" x2="-17.78" y2="96.52" width="0.1524" layer="91"/>
 <label x="-17.78" y="96.52" size="0.8128" layer="95" font="vector"/>
 <wire x1="-17.78" y1="96.52" x2="-20.32" y2="96.52" width="0.1524" layer="91"/>
@@ -16510,7 +16609,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB3(PDO/PCINT3/MISO)"/>
+<pinref part="U11" gate="G$1" pin="PB3(PDO/PCINT3/MISO)"/>
 <wire x1="68.58" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
 <label x="63.5" y="109.22" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16527,7 +16626,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB2(PDI/PCINT2/MOSI)"/>
+<pinref part="U11" gate="G$1" pin="PB2(PDI/PCINT2/MOSI)"/>
 <wire x1="58.42" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 <label x="63.5" y="106.68" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16544,7 +16643,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB1(PCINT1/SCK)"/>
+<pinref part="U11" gate="G$1" pin="PB1(PCINT1/SCK)"/>
 <wire x1="68.58" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="63.5" y="104.14" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16561,7 +16660,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="IO_0" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB4(PCINT4/OC.2A)"/>
+<pinref part="U11" gate="G$1" pin="PB4(PCINT4/OC.2A)"/>
 <wire x1="58.42" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
 <label x="63.5" y="111.76" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16573,7 +16672,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="IO_1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
+<pinref part="U11" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
 <wire x1="68.58" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="63.5" y="114.3" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16585,16 +16684,20 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="BATT_V" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-104.14" y1="88.9" x2="-104.14" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="86.36" x2="-104.14" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="86.36" x2="-88.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="86.36" x2="-93.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="-91.44" y="86.36" size="0.8128" layer="95" font="vector"/>
 <junction x="-104.14" y="86.36"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="86.36" x2="-88.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="86.36" x2="-93.98" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-93.98" y="86.36"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PF1(ADC1)"/>
+<pinref part="U11" gate="G$1" pin="PF1(ADC1)"/>
 <wire x1="-7.62" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
 <label x="-17.78" y="35.56" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16606,7 +16709,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </net>
 <net name="PD5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD5(XCK1)"/>
+<pinref part="U11" gate="G$1" pin="PD5(XCK1)"/>
 <wire x1="58.42" y1="68.58" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
 <label x="63.5" y="68.58" size="0.8128" layer="95" font="vector"/>
 </segment>
@@ -16623,7 +16726,7 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 <label x="535.94" y="40.64" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD6(T1)"/>
+<pinref part="U11" gate="G$1" pin="PD6(T1)"/>
 <wire x1="68.58" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <label x="63.5" y="71.12" size="0.8128" layer="95" font="vector"/>
 </segment>
