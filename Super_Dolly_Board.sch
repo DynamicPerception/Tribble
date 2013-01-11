@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="10" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="10" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="2" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="12" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -729,35 +729,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-1.389" y="0.562" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="L7_RA_SERIES_JACK">
-<description>See Datasheet:
-
-L7__RA_series_cd.pdf</description>
-<pad name="PIN" x="0" y="3.302" drill="1.7272" shape="offset"/>
-<pad name="SLEEVE_SHUNT" x="0" y="-3.302" drill="1.7272" shape="offset"/>
-<pad name="SLEEVE" x="-5.588" y="0" drill="1.7272" shape="offset"/>
-<wire x1="-13.9446" y1="-5.0546" x2="-13.9446" y2="5.0546" width="0.127" layer="21"/>
-<wire x1="-13.9446" y1="5.0546" x2="5.0546" y2="5.0546" width="0.127" layer="21"/>
-<wire x1="5.0546" y1="5.0546" x2="5.0546" y2="-5.0546" width="0.127" layer="21"/>
-<wire x1="5.0546" y1="-5.0546" x2="-13.9446" y2="-5.0546" width="0.127" layer="21"/>
-<text x="-2.54" y="-6.35" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-</package>
-<package name="POWER_JACK_PTH">
-<wire x1="4.5" y1="6.08" x2="2.4" y2="6.08" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-4.62" x2="-4.5" y2="-7.52" width="0.2032" layer="51"/>
-<wire x1="4.5" y1="-7.52" x2="4.5" y2="-4.62" width="0.2032" layer="51"/>
-<wire x1="4.5" y1="-7.52" x2="-4.5" y2="-7.52" width="0.2032" layer="51"/>
-<wire x1="4.5" y1="-4.62" x2="4.5" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="6.08" x2="4.5" y2="5.38" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-4.62" x2="-4.5" y2="6.08" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="6.08" x2="-2.4" y2="6.08" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-4.62" x2="4.5" y2="-4.62" width="0.2032" layer="21"/>
-<pad name="PWR" x="0" y="6.08" drill="2.9972" diameter="4.318"/>
-<pad name="GND" x="0" y="0.08" drill="2.9972" diameter="4.318"/>
-<pad name="GNDBREAK" x="4.7" y="3.08" drill="2.9972" diameter="3.556" rot="R90"/>
-<text x="-5.08" y="2.54" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<hole x="0" y="-4.5" drill="1.6"/>
-</package>
 <package name="APLS_SKQ_MDS_PTH">
 <pad name="1" x="-5.15" y="0" drill="1.2" shape="long"/>
 <pad name="6" x="5.15" y="0" drill="1.2" shape="long"/>
@@ -867,36 +838,6 @@ SSTX2500.pdf</description>
 <pad name="5" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
 <pad name="6" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
 <text x="-3.81" y="3.175" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
-</package>
-<package name="HSOP16">
-<smd name="1" x="-4" y="3" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="2" x="-4" y="2" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="3" x="-4" y="1" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="4" x="-4" y="0" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="FIN0" x="-4" y="-2.5" dx="3.6" dy="2.4" layer="1" rot="R90"/>
-<smd name="5" x="-4" y="-5" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="6" x="-4" y="-6" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="7" x="-4" y="-7" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="8" x="-4" y="-8" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="9" x="4" y="-8" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="10" x="4" y="-7" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="11" x="4" y="-6" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="12" x="4" y="-5" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="FIN1" x="4" y="-2.5" dx="3.6" dy="2.4" layer="1" rot="R90"/>
-<smd name="13" x="4" y="0" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="14" x="4" y="1" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="15" x="4" y="2" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<smd name="16" x="4" y="3" dx="2.4" dy="0.6" layer="1" rot="R180"/>
-<wire x1="-6" y1="4" x2="-1" y2="4" width="0.127" layer="21"/>
-<wire x1="-1" y1="4" x2="1" y2="4" width="0.127" layer="21"/>
-<wire x1="1" y1="4" x2="6" y2="4" width="0.127" layer="21"/>
-<wire x1="6" y1="4" x2="6" y2="-9" width="0.127" layer="21"/>
-<wire x1="6" y1="-9" x2="-6" y2="-9" width="0.127" layer="21"/>
-<wire x1="-6" y1="-9" x2="-6" y2="4" width="0.127" layer="21"/>
-<wire x1="-1" y1="4" x2="-1" y2="3" width="0.127" layer="21"/>
-<wire x1="-1" y1="3" x2="1" y2="3" width="0.127" layer="21"/>
-<wire x1="1" y1="3" x2="1" y2="4" width="0.127" layer="21"/>
-<text x="-6" y="5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="SOD-128">
 <smd name="CATHODE" x="-2.2" y="0" dx="1.2" dy="1.9" layer="1" rot="R180"/>
@@ -7309,23 +7250,6 @@ SSTX2500.pdf</description>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="DC_JACK">
-<pin name="PIN" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="SLEEVE" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="SLEEVE_SHUNT" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-1.27" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<text x="-5.08" y="5.08" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="0.8128" layer="95" font="vector">&gt;VALUE</text>
-</symbol>
 <symbol name="APLS_SKQ_MDS">
 <pin name="A" x="-10.16" y="5.08" visible="pin" length="short"/>
 <pin name="B" x="-10.16" y="0" visible="pin" length="short"/>
@@ -7377,27 +7301,6 @@ SSTX2500.pdf</description>
 <pin name="4" x="2.54" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="5" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="6" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-</symbol>
-<symbol name="TB6559FG">
-<pin name="IN1" x="-10.16" y="12.7" visible="pin" length="short"/>
-<pin name="SB" x="-10.16" y="5.08" visible="pin" length="short"/>
-<pin name="VREF" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="12.7" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="VCC" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="N/C" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="OUT1" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="RSA" x="-10.16" y="-7.62" visible="pin" length="short"/>
-<pin name="OUT2" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="ALERT" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="PWM" x="-10.16" y="7.62" visible="pin" length="short"/>
-<pin name="VREG" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="IN2" x="-10.16" y="10.16" visible="pin" length="short"/>
-<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
-<text x="-7.62" y="17.78" size="0.8128" layer="104" font="vector">&gt;NAME</text>
-<text x="-2.54" y="17.78" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="DIODE">
 <pin name="CATHODE" x="-5.08" y="0" visible="off" length="short"/>
@@ -8662,33 +8565,6 @@ SSTX2500.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DC_JACK" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="DC_JACK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="L7_RA" package="L7_RA_SERIES_JACK">
-<connects>
-<connect gate="G$1" pin="PIN" pad="PIN"/>
-<connect gate="G$1" pin="SLEEVE" pad="SLEEVE"/>
-<connect gate="G$1" pin="SLEEVE_SHUNT" pad="SLEEVE_SHUNT"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH" package="POWER_JACK_PTH">
-<connects>
-<connect gate="G$1" pin="PIN" pad="PWR"/>
-<connect gate="G$1" pin="SLEEVE" pad="GND"/>
-<connect gate="G$1" pin="SLEEVE_SHUNT" pad="GNDBREAK"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="APLS_SKQ_MDS" prefix="SW" uservalue="yes">
 <description>Mouser Part #: 688-SKQUDB
 Manufacturer Part #: SKQUDBE010
@@ -8780,39 +8656,6 @@ http://www.mouser.com/ProductDetail/ALPS/SKQUDBE010/?qs=sGAEpiMZZMsFLoxuNbFfpYqB
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TB6559FG" prefix="U" uservalue="yes">
-<description>Mouser Part #: 757-TB6559FGO8EL
-Manufacturer Part #: TB6559FG(O,8,EL)
-Manufacturer: Toshiba
-Description: Motor / Motion / Ignition Controllers &amp; Drivers Full-Bridge DC 50V 2.5A 1.3Ohm Motor IC 
-
-http://www.mouser.com/ProductDetail/Toshiba/TB6559FGO8EL/?qs=sGAEpiMZZMtKB4wrjsn3lTMFxKgHRU2BMOvDYJK6%252bDY%3d</description>
-<gates>
-<gate name="G$1" symbol="TB6559FG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HSOP16">
-<connects>
-<connect gate="G$1" pin="ALERT" pad="11"/>
-<connect gate="G$1" pin="GND" pad="4 10 12 13 FIN0 FIN1"/>
-<connect gate="G$1" pin="IN1" pad="1"/>
-<connect gate="G$1" pin="IN2" pad="16"/>
-<connect gate="G$1" pin="N/C" pad="6"/>
-<connect gate="G$1" pin="OUT1" pad="7"/>
-<connect gate="G$1" pin="OUT2" pad="9"/>
-<connect gate="G$1" pin="PWM" pad="14"/>
-<connect gate="G$1" pin="RSA" pad="8"/>
-<connect gate="G$1" pin="SB" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="5"/>
-<connect gate="G$1" pin="VREF" pad="3"/>
-<connect gate="G$1" pin="VREG" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15328,6 +15171,188 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </deviceset>
 </devicesets>
 </library>
+<library name="PP_PowerIC">
+<packages>
+<package name="PG-DSO-36-29">
+<smd name="1" x="-4.865" y="5.2" dx="1.67" dy="0.45" layer="1"/>
+<smd name="2" x="-4.865" y="4.55" dx="1.67" dy="0.45" layer="1"/>
+<smd name="3" x="-4.865" y="3.9" dx="1.67" dy="0.45" layer="1"/>
+<smd name="4" x="-4.865" y="3.25" dx="1.67" dy="0.45" layer="1"/>
+<smd name="5" x="-4.865" y="2.6" dx="1.67" dy="0.45" layer="1"/>
+<smd name="6" x="-4.865" y="1.95" dx="1.67" dy="0.45" layer="1"/>
+<smd name="7" x="-4.865" y="1.3" dx="1.67" dy="0.45" layer="1"/>
+<smd name="8" x="-4.865" y="0.65" dx="1.67" dy="0.45" layer="1"/>
+<smd name="9" x="-4.865" y="0" dx="1.67" dy="0.45" layer="1"/>
+<smd name="10" x="-4.865" y="-0.65" dx="1.67" dy="0.45" layer="1"/>
+<smd name="11" x="-4.865" y="-1.3" dx="1.67" dy="0.45" layer="1"/>
+<smd name="12" x="-4.865" y="-1.95" dx="1.67" dy="0.45" layer="1"/>
+<smd name="13" x="-4.865" y="-2.6" dx="1.67" dy="0.45" layer="1"/>
+<smd name="14" x="-4.865" y="-3.25" dx="1.67" dy="0.45" layer="1"/>
+<smd name="15" x="-4.865" y="-3.9" dx="1.67" dy="0.45" layer="1"/>
+<smd name="16" x="-4.865" y="-4.55" dx="1.67" dy="0.45" layer="1"/>
+<smd name="17" x="-4.865" y="-5.2" dx="1.67" dy="0.45" layer="1"/>
+<smd name="18" x="-4.865" y="-5.85" dx="1.67" dy="0.45" layer="1"/>
+<smd name="36" x="4.865" y="5.2" dx="1.67" dy="0.45" layer="1"/>
+<smd name="35" x="4.865" y="4.55" dx="1.67" dy="0.45" layer="1"/>
+<smd name="34" x="4.865" y="3.9" dx="1.67" dy="0.45" layer="1"/>
+<smd name="33" x="4.865" y="3.25" dx="1.67" dy="0.45" layer="1"/>
+<smd name="32" x="4.865" y="2.6" dx="1.67" dy="0.45" layer="1"/>
+<smd name="31" x="4.865" y="1.95" dx="1.67" dy="0.45" layer="1"/>
+<smd name="30" x="4.865" y="1.3" dx="1.67" dy="0.45" layer="1"/>
+<smd name="29" x="4.865" y="0.65" dx="1.67" dy="0.45" layer="1"/>
+<smd name="28" x="4.865" y="0" dx="1.67" dy="0.45" layer="1"/>
+<smd name="27" x="4.865" y="-0.65" dx="1.67" dy="0.45" layer="1"/>
+<smd name="26" x="4.865" y="-1.3" dx="1.67" dy="0.45" layer="1"/>
+<smd name="25" x="4.865" y="-1.95" dx="1.67" dy="0.45" layer="1"/>
+<smd name="24" x="4.865" y="-2.6" dx="1.67" dy="0.45" layer="1"/>
+<smd name="23" x="4.865" y="-3.25" dx="1.67" dy="0.45" layer="1"/>
+<smd name="22" x="4.865" y="-3.9" dx="1.67" dy="0.45" layer="1"/>
+<smd name="21" x="4.865" y="-4.55" dx="1.67" dy="0.45" layer="1"/>
+<smd name="20" x="4.865" y="-5.2" dx="1.67" dy="0.45" layer="1"/>
+<smd name="19" x="4.865" y="-5.85" dx="1.67" dy="0.45" layer="1"/>
+<wire x1="-7.15" y1="6.5" x2="-1.3" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="6.5" x2="1.3" y2="6.5" width="0.127" layer="21"/>
+<wire x1="1.3" y1="6.5" x2="7.15" y2="6.5" width="0.127" layer="21"/>
+<wire x1="7.15" y1="6.5" x2="7.15" y2="-7.15" width="0.127" layer="21"/>
+<wire x1="7.15" y1="-7.15" x2="-7.15" y2="-7.15" width="0.127" layer="21"/>
+<wire x1="-7.15" y1="-7.15" x2="-7.15" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="6.5" x2="-1.3" y2="5.2" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="5.2" x2="1.3" y2="5.2" width="0.127" layer="21"/>
+<wire x1="1.3" y1="5.2" x2="1.3" y2="6.5" width="0.127" layer="21"/>
+<text x="-7.15" y="7.15" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BTM7755">
+<pin name="OUT1" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="OUT2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="VS" x="-10.16" y="10.16" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="-7.62" visible="pin" length="short"/>
+<pin name="IN1" x="-10.16" y="5.08" visible="pin" length="short"/>
+<pin name="IN2" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="ST" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="INH" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BTM7755" prefix="U" uservalue="yes">
+<description>Manufacturer Part #: BTM7755
+Manufacturer: Infineon Technologies
+Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Bridge Trilith IC 3G</description>
+<gates>
+<gate name="G$1" symbol="BTM7755" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="PG-DSO-36-29" package="PG-DSO-36-29">
+<connects>
+<connect gate="G$1" pin="GND" pad="5 6 7 8 23 24 25 26"/>
+<connect gate="G$1" pin="IN1" pad="9"/>
+<connect gate="G$1" pin="IN2" pad="10"/>
+<connect gate="G$1" pin="INH" pad="27"/>
+<connect gate="G$1" pin="OUT1" pad="1 2 3 4 33 34 35 36"/>
+<connect gate="G$1" pin="OUT2" pad="15 16 17 18 19 20 21 22"/>
+<connect gate="G$1" pin="ST" pad="28"/>
+<connect gate="G$1" pin="VS" pad="11 12 13 14 29 30 31 32"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="PP_Connectors">
+<packages>
+<package name="DC_JACK_PTH_TIGHT">
+<wire x1="4.5" y1="6.08" x2="2.4" y2="6.08" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.62" x2="-4.5" y2="-7.52" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-7.52" x2="4.5" y2="-4.62" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-7.52" x2="-4.5" y2="-7.52" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-4.62" x2="4.5" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="6.08" x2="4.5" y2="5.38" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.62" x2="-4.5" y2="6.08" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="6.08" x2="-2.4" y2="6.08" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.62" x2="4.5" y2="-4.62" width="0.2032" layer="21"/>
+<pad name="PWR" x="0" y="6.08" drill="2.9" diameter="4.318"/>
+<pad name="GND" x="0" y="0.08" drill="2.4" diameter="4.318"/>
+<pad name="GNDBREAK" x="4.7" y="3.08" drill="2.2" diameter="3.556" rot="R90"/>
+<text x="-5.08" y="2.54" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
+</package>
+<package name="DC_JACK_PTH">
+<wire x1="4.5" y1="6.08" x2="2.4" y2="6.08" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.62" x2="-4.5" y2="-7.52" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-7.52" x2="4.5" y2="-4.62" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-7.52" x2="-4.5" y2="-7.52" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-4.62" x2="4.5" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="6.08" x2="4.5" y2="5.38" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.62" x2="-4.5" y2="6.08" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="6.08" x2="-2.4" y2="6.08" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.62" x2="4.5" y2="-4.62" width="0.2032" layer="21"/>
+<pad name="PWR" x="0" y="6.08" drill="2.9972" diameter="4.318"/>
+<pad name="GND" x="0" y="0.08" drill="2.9972" diameter="4.318"/>
+<pad name="GNDBREAK" x="4.7" y="3.08" drill="2.9972" diameter="3.556" rot="R90"/>
+<text x="-5.08" y="2.54" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<hole x="0" y="-4.5" drill="2"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DC_JACK">
+<description>DC JACK</description>
+<pin name="PIN" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="SLEEVE" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="SLEEVE_SHUNT" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<text x="-5.08" y="5.08" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="0.8128" layer="95" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DC_JACK" prefix="J" uservalue="yes">
+<description>DC JACK</description>
+<gates>
+<gate name="G$1" symbol="DC_JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="DC_JACK_PTH">
+<connects>
+<connect gate="G$1" pin="PIN" pad="PWR"/>
+<connect gate="G$1" pin="SLEEVE" pad="GND"/>
+<connect gate="G$1" pin="SLEEVE_SHUNT" pad="GNDBREAK"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH_TIGHT" package="DC_JACK_PTH_TIGHT">
+<connects>
+<connect gate="G$1" pin="PIN" pad="PWR"/>
+<connect gate="G$1" pin="SLEEVE" pad="GND"/>
+<connect gate="G$1" pin="SLEEVE_SHUNT" pad="GNDBREAK"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15356,7 +15381,7 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <part name="C16" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="C17" library="SparkFun" deviceset="CAP_POL" device="1206" value="2.2uF"/>
 <part name="C18" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="PWR" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-A-LT"/>
+<part name="PWR" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-A-LT"/>
 <part name="X1" library="kyocera-crystals" deviceset="3.2X2.5MMCRYSTAL" device=""/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0402" value="6pF"/>
 <part name="C4" library="SparkFun" deviceset="CAP" device="0402" value="6pF"/>
@@ -15391,27 +15416,21 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <part name="P1" library="bourns trimpot" deviceset="TC33X-2" device=""/>
 <part name="C7" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="J2" library="parkers_parts" deviceset="P2X03" device=""/>
-<part name="U5" library="parkers_parts" deviceset="TB6559FG" device="" value="TB6559FG"/>
-<part name="U7" library="parkers_parts" deviceset="TB6559FG" device="" value="TB6559FG"/>
-<part name="U3" library="parkers_parts" deviceset="TB6559FG" device="" value="TB6559FG"/>
 <part name="J3" library="parkers_parts" deviceset="TRS_STEREO_JACK" device="SJ1-2503A" value="SJ1-2503A"/>
 <part name="CG2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="CG3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="MOT0" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-B-LT"/>
-<part name="MOT1" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-B-LT"/>
-<part name="MOT2" library="parkers_parts" deviceset="DC_JACK" device="PTH" value="KLDX-0202-B-LT"/>
-<part name="C15" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="C13" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="C12" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
+<part name="MOT0" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
+<part name="MOT1" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
+<part name="MOT2" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
 <part name="C11" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF 35V"/>
 <part name="C10" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF 35V"/>
-<part name="C9" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="R8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
-<part name="R7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="C9" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF 35V"/>
+<part name="R8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
+<part name="R7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
 <part name="R6" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="R3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
-<part name="R2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
-<part name="R1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
+<part name="R1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
 <part name="D1" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG6010EP"/>
 <part name="U$1" library="parkers_parts" deviceset="DP_FRAME" device="">
 <attribute name="DNAME" value="Parker Dillmann"/>
@@ -15433,8 +15452,8 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <part name="R23" library="parkers_parts" deviceset="RESISTOR" device="0402" value="5K"/>
 <part name="U11" library="at90usb" deviceset="AT90USB647-*" device="AU" value="AT90USB646-AU"/>
 <part name="R22" library="parkers_parts" deviceset="RESISTOR" device="0402" value="0"/>
-<part name="C22" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value="1uF"/>
-<part name="C23" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
+<part name="C15" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value="1uF"/>
+<part name="C13" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="R24" library="parkers_parts" deviceset="RESISTOR" device="0402" value="0"/>
 <part name="C5" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="C6" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
@@ -15451,8 +15470,21 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <part name="CG8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="CG9" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="AUX" library="pinhead" deviceset="PINHD-2X4" device=""/>
-<part name="C24" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
+<part name="C12" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
 <part name="R25" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="U3" library="PP_PowerIC" deviceset="BTM7755" device="PG-DSO-36-29" value="BTM7755"/>
+<part name="U5" library="PP_PowerIC" deviceset="BTM7755" device="PG-DSO-36-29"/>
+<part name="U7" library="PP_PowerIC" deviceset="BTM7755" device="PG-DSO-36-29"/>
+<part name="R26" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
+<part name="R27" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R28" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R29" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
+<part name="R30" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R31" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R32" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R33" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R34" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="CG10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 </parts>
 <sheets>
 <sheet>
@@ -15541,27 +15573,21 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <instance part="P1" gate="G$1" x="119.38" y="81.28" smashed="yes" rot="R270"/>
 <instance part="C7" gate="G$1" x="111.76" y="81.28"/>
 <instance part="J2" gate="G$1" x="96.52" y="15.24"/>
-<instance part="U5" gate="G$1" x="213.36" y="10.16"/>
-<instance part="U7" gate="G$1" x="314.96" y="10.16"/>
-<instance part="U3" gate="G$1" x="213.36" y="-27.94"/>
 <instance part="J3" gate="G$1" x="88.9" y="-12.7"/>
 <instance part="CG2" gate="G$1" x="119.38" y="-20.32" rot="R90"/>
 <instance part="CG3" gate="G$1" x="111.76" y="-20.32" rot="R90"/>
-<instance part="MOT0" gate="G$1" x="251.46" y="5.08" rot="MR0"/>
-<instance part="MOT1" gate="G$1" x="353.06" y="5.08" rot="MR0"/>
-<instance part="MOT2" gate="G$1" x="251.46" y="-33.02" rot="MR0"/>
-<instance part="C15" gate="G$1" x="243.84" y="12.7" rot="R90"/>
-<instance part="C13" gate="G$1" x="345.44" y="12.7" rot="R90"/>
-<instance part="C12" gate="G$1" x="243.84" y="-25.4" rot="R90"/>
-<instance part="C11" gate="G$1" x="243.84" y="22.86" rot="R90"/>
-<instance part="C10" gate="G$1" x="345.44" y="22.86" rot="R90"/>
-<instance part="C9" gate="G$1" x="243.84" y="-15.24" rot="R90"/>
-<instance part="R8" gate="G$1" x="175.26" y="10.16" rot="R90"/>
-<instance part="R7" gate="G$1" x="180.34" y="10.16" rot="R90"/>
-<instance part="R6" gate="G$1" x="276.86" y="10.16" rot="R90"/>
-<instance part="R3" gate="G$1" x="281.94" y="10.16" rot="R90"/>
-<instance part="R2" gate="G$1" x="175.26" y="-27.94" rot="R90"/>
-<instance part="R1" gate="G$1" x="180.34" y="-27.94" rot="R90"/>
+<instance part="MOT0" gate="G$1" x="254" y="15.24" rot="MR0"/>
+<instance part="MOT1" gate="G$1" x="355.6" y="15.24" rot="MR0"/>
+<instance part="MOT2" gate="G$1" x="254" y="-22.86" rot="MR0"/>
+<instance part="C11" gate="G$1" x="172.72" y="12.7" rot="R180"/>
+<instance part="C10" gate="G$1" x="274.32" y="12.7" rot="R180"/>
+<instance part="C9" gate="G$1" x="172.72" y="-25.4" rot="R180"/>
+<instance part="R8" gate="G$1" x="195.58" y="20.32" rot="R180"/>
+<instance part="R7" gate="G$1" x="195.58" y="15.24" rot="R180"/>
+<instance part="R6" gate="G$1" x="297.18" y="20.32" rot="R180"/>
+<instance part="R3" gate="G$1" x="297.18" y="15.24" rot="R180"/>
+<instance part="R2" gate="G$1" x="195.58" y="-17.78" rot="R180"/>
+<instance part="R1" gate="G$1" x="195.58" y="-22.86" rot="R180"/>
 <instance part="D1" gate="G$1" x="-27.94" y="-33.02" rot="R270"/>
 <instance part="U$1" gate="G$1" x="304.8" y="-48.26">
 <attribute name="DNAME" x="304.8" y="-48.26" size="0.8128" layer="96" font="vector" display="off"/>
@@ -15589,8 +15615,8 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <instance part="R23" gate="G$1" x="302.26" y="76.2" rot="R270"/>
 <instance part="U11" gate="G$1" x="25.4" y="88.9"/>
 <instance part="R22" gate="G$1" x="-60.96" y="15.24"/>
-<instance part="C22" gate="G$1" x="-27.94" y="73.66" rot="R90"/>
-<instance part="C23" gate="G$1" x="-27.94" y="101.6"/>
+<instance part="C15" gate="G$1" x="-27.94" y="73.66" rot="R90"/>
+<instance part="C13" gate="G$1" x="-27.94" y="101.6"/>
 <instance part="R24" gate="G$1" x="-38.1" y="93.98"/>
 <instance part="C5" gate="G$1" x="-27.94" y="116.84"/>
 <instance part="C6" gate="G$1" x="-38.1" y="116.84"/>
@@ -15607,8 +15633,21 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <instance part="CG8" gate="G$1" x="109.22" y="40.64" rot="R90"/>
 <instance part="CG9" gate="G$1" x="119.38" y="40.64" rot="R90"/>
 <instance part="AUX" gate="A" x="388.62" y="35.56"/>
-<instance part="C24" gate="G$1" x="-10.16" y="-12.7"/>
+<instance part="C12" gate="G$1" x="-10.16" y="-12.7"/>
 <instance part="R25" gate="G$1" x="182.88" y="114.3" rot="R270"/>
+<instance part="U3" gate="G$1" x="215.9" y="-25.4"/>
+<instance part="U5" gate="G$1" x="215.9" y="12.7"/>
+<instance part="U7" gate="G$1" x="317.5" y="12.7"/>
+<instance part="R26" gate="G$1" x="195.58" y="10.16" rot="R180"/>
+<instance part="R27" gate="G$1" x="238.76" y="5.08" rot="R270"/>
+<instance part="R28" gate="G$1" x="243.84" y="5.08" rot="R270"/>
+<instance part="R29" gate="G$1" x="195.58" y="-27.94" rot="R180"/>
+<instance part="R30" gate="G$1" x="243.84" y="-33.02" rot="R270"/>
+<instance part="R31" gate="G$1" x="238.76" y="-33.02" rot="R270"/>
+<instance part="R32" gate="G$1" x="297.18" y="10.16" rot="R180"/>
+<instance part="R33" gate="G$1" x="345.44" y="5.08" rot="R270"/>
+<instance part="R34" gate="G$1" x="340.36" y="5.08" rot="R270"/>
+<instance part="CG10" gate="G$1" x="76.2" y="33.02" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15674,36 +15713,6 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="157.48" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="LCD1" gate="G$1" pin="A"/>
 <label x="144.78" y="48.26" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="VREF"/>
-<wire x1="236.22" y1="15.24" x2="226.06" y2="15.24" width="0.1524" layer="91"/>
-<label x="231.14" y="15.24" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U7" gate="G$1" pin="VREF"/>
-<wire x1="327.66" y1="15.24" x2="337.82" y2="15.24" width="0.1524" layer="91"/>
-<label x="332.74" y="15.24" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<wire x1="236.22" y1="-22.86" x2="226.06" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VREF"/>
-<label x="231.14" y="-22.86" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U7" gate="G$1" pin="SB"/>
-<wire x1="294.64" y1="15.24" x2="304.8" y2="15.24" width="0.1524" layer="91"/>
-<label x="297.18" y="15.24" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="SB"/>
-<wire x1="193.04" y1="-22.86" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
-<label x="195.58" y="-22.86" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="SB"/>
-<wire x1="203.2" y1="15.24" x2="193.04" y2="15.24" width="0.1524" layer="91"/>
-<label x="195.58" y="15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="OUT"/>
@@ -15842,7 +15851,7 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="43.18" y1="-20.32" x2="50.8" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-20.32" x2="50.8" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="43.18" y="-20.32"/>
-<pinref part="C24" gate="G$1" pin="NEG"/>
+<pinref part="C12" gate="G$1" pin="NEG"/>
 <wire x1="-10.16" y1="-17.78" x2="-10.16" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="0" y="-20.32"/>
@@ -15941,42 +15950,6 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <label x="152.4" y="127" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="GND"/>
-<label x="231.14" y="20.32" size="0.8128" layer="95" font="vector"/>
-<wire x1="226.06" y1="20.32" x2="251.46" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="20.32" x2="251.46" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="12.7" x2="248.92" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="22.86" x2="251.46" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="22.86" x2="251.46" y2="20.32" width="0.1524" layer="91"/>
-<junction x="251.46" y="20.32"/>
-</segment>
-<segment>
-<pinref part="U7" gate="G$1" pin="GND"/>
-<label x="332.74" y="20.32" size="0.8128" layer="95" font="vector"/>
-<wire x1="327.66" y1="20.32" x2="353.06" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="20.32" x2="353.06" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="12.7" x2="350.52" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="350.52" y1="22.86" x2="353.06" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="22.86" x2="353.06" y2="20.32" width="0.1524" layer="91"/>
-<junction x="353.06" y="20.32"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<label x="231.14" y="-17.78" size="0.8128" layer="95" font="vector"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="-25.4" x2="251.46" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-25.4" x2="251.46" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-17.78" x2="226.06" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="-15.24" x2="251.46" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-15.24" x2="251.46" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="251.46" y="-17.78"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="S"/>
 <label x="99.06" y="-7.62" size="0.8128" layer="95" font="vector"/>
 <pinref part="CG3" gate="G$1" pin="1"/>
@@ -15990,37 +15963,23 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <junction x="119.38" y="-27.94"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="RSA"/>
-<label x="297.18" y="2.54" size="0.8128" layer="95" font="vector"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="2.54" x2="281.94" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="2.54" x2="276.86" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="2.54" x2="276.86" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="5.08" x2="281.94" y2="2.54" width="0.1524" layer="91"/>
-<junction x="281.94" y="2.54"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="RSA"/>
-<label x="195.58" y="-35.56" size="0.8128" layer="95" font="vector"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="-35.56" x2="180.34" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-35.56" x2="175.26" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-35.56" x2="175.26" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="-33.02" x2="180.34" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="180.34" y="-35.56"/>
-</segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="RSA"/>
-<label x="195.58" y="2.54" size="0.8128" layer="95" font="vector"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="2.54" x2="180.34" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="2.54" x2="175.26" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="2.54" x2="175.26" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="2.54" x2="180.34" y2="5.08" width="0.1524" layer="91"/>
-<junction x="180.34" y="2.54"/>
+<label x="177.8" y="5.08" size="0.8128" layer="95" font="vector"/>
+<wire x1="205.74" y1="5.08" x2="200.66" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="5.08" x2="182.88" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="5.08" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="5.08" x2="172.72" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="5.08" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="5.08" x2="200.66" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-2.54" x2="238.76" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="-2.54" x2="243.84" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="-2.54" x2="243.84" y2="0" width="0.1524" layer="91"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="0" x2="238.76" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="200.66" y="5.08"/>
+<junction x="238.76" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="GND"/>
@@ -16120,6 +16079,46 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="393.7" y1="40.64" x2="401.32" y2="40.64" width="0.1524" layer="91"/>
 <label x="398.78" y="40.64" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="-33.02" x2="200.66" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-33.02" x2="172.72" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-33.02" x2="172.72" y2="-27.94" width="0.1524" layer="91"/>
+<label x="177.8" y="-33.02" size="0.8128" layer="95" font="vector"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="-38.1" x2="243.84" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="-40.64" x2="238.76" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-40.64" x2="200.66" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-40.64" x2="200.66" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="-38.1" x2="238.76" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="238.76" y="-40.64"/>
+<junction x="200.66" y="-33.02"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="5.08" x2="302.26" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="5.08" x2="274.32" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="5.08" x2="274.32" y2="10.16" width="0.1524" layer="91"/>
+<label x="279.4" y="5.08" size="0.8128" layer="95" font="vector"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="0" x2="345.44" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-2.54" x2="340.36" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="-2.54" x2="302.26" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="-2.54" x2="302.26" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="0" x2="340.36" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="302.26" y="5.08"/>
+<junction x="340.36" y="-2.54"/>
+</segment>
+<segment>
+<pinref part="CG10" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="27.94" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
+<label x="81.28" y="25.4" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="AREF" class="4">
 <segment>
@@ -16129,7 +16128,7 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="-17.78" y1="101.6" x2="-20.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="101.6" x2="-20.32" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="106.68" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="106.68" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16152,7 +16151,7 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="0" y1="-10.16" x2="0" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="0" y="-5.08"/>
-<pinref part="C24" gate="G$1" pin="POS"/>
+<pinref part="C12" gate="G$1" pin="POS"/>
 <wire x1="-2.54" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
@@ -16166,29 +16165,33 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="-27.94" y1="-25.4" x2="-27.94" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="VCC"/>
-<wire x1="226.06" y1="22.86" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
-<label x="231.14" y="22.86" size="0.8128" layer="95" font="vector"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U7" gate="G$1" pin="VCC"/>
-<wire x1="327.66" y1="22.86" x2="342.9" y2="22.86" width="0.1524" layer="91"/>
-<label x="332.74" y="22.86" size="0.8128" layer="95" font="vector"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="VCC"/>
-<wire x1="226.06" y1="-15.24" x2="241.3" y2="-15.24" width="0.1524" layer="91"/>
-<label x="231.14" y="-15.24" size="0.8128" layer="95" font="vector"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-104.14" y1="101.6" x2="-104.14" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="101.6" x2="-104.14" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="104.14" x2="-109.22" y2="104.14" width="0.1524" layer="91"/>
 <label x="-109.22" y="104.14" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="VS"/>
+<wire x1="205.74" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
+<label x="177.8" y="22.86" size="0.8128" layer="95" font="vector"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="22.86" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="VS"/>
+<wire x1="205.74" y1="-15.24" x2="172.72" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="-15.24" x2="172.72" y2="-20.32" width="0.1524" layer="91"/>
+<label x="177.8" y="-15.24" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="VS"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="22.86" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="22.86" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="279.4" y="22.86" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -16278,40 +16281,36 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </net>
 <net name="M0_B" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="IN2"/>
-<label x="195.58" y="20.32" size="0.8128" layer="95" font="vector"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="20.32" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="20.32" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
+<label x="177.8" y="20.32" size="0.8128" layer="95" font="vector"/>
+<wire x1="190.5" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="PA6(AD6)"/>
-<wire x1="68.58" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
-<label x="63.5" y="139.7" size="0.8128" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="PA4(AD4)"/>
+<wire x1="541.02" y1="104.14" x2="530.86" y2="104.14" width="0.1524" layer="91"/>
+<label x="535.94" y="104.14" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA6(AD6)"/>
-<wire x1="541.02" y1="109.22" x2="530.86" y2="109.22" width="0.1524" layer="91"/>
-<label x="535.94" y="109.22" size="0.8128" layer="95" font="vector"/>
+<pinref part="U11" gate="G$1" pin="PA4(AD4)"/>
+<wire x1="68.58" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
+<label x="63.5" y="134.62" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="M2_A" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="IN1"/>
-<label x="195.58" y="-15.24" size="0.8128" layer="95" font="vector"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="-15.24" x2="175.26" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-15.24" x2="175.26" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="-22.86" x2="177.8" y2="-22.86" width="0.1524" layer="91"/>
+<label x="177.8" y="-22.86" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="PA5(AD5)"/>
-<wire x1="58.42" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
-<label x="63.5" y="137.16" size="0.8128" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="PA7(AD7)"/>
+<wire x1="530.86" y1="111.76" x2="541.02" y2="111.76" width="0.1524" layer="91"/>
+<label x="535.94" y="111.76" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA5(AD5)"/>
-<wire x1="530.86" y1="106.68" x2="541.02" y2="106.68" width="0.1524" layer="91"/>
-<label x="535.94" y="106.68" size="0.8128" layer="95" font="vector"/>
+<pinref part="U11" gate="G$1" pin="PA7(AD7)"/>
+<wire x1="58.42" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
+<label x="63.5" y="142.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -16345,7 +16344,7 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <pinref part="U11" gate="G$1" pin="UCAP"/>
 <wire x1="-17.78" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
 <label x="-17.78" y="73.66" size="0.8128" layer="95" font="vector"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="73.66" x2="-22.86" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16574,14 +16573,14 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <label x="193.04" y="124.46" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="PE3(IUID)"/>
-<wire x1="58.42" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
-<label x="63.5" y="40.64" size="0.8128" layer="95" font="vector"/>
+<pinref part="U11" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
+<wire x1="68.58" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="63.5" y="114.3" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PE3(IUID)"/>
-<wire x1="530.86" y1="10.16" x2="541.02" y2="10.16" width="0.1524" layer="91"/>
-<label x="535.94" y="10.16" size="0.8128" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
+<wire x1="541.02" y1="83.82" x2="530.86" y2="83.82" width="0.1524" layer="91"/>
+<label x="535.94" y="83.82" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -16861,30 +16860,27 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </net>
 <net name="M1_B" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="IN2"/>
-<label x="297.18" y="20.32" size="0.8128" layer="95" font="vector"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="20.32" x2="281.94" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="20.32" x2="281.94" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="20.32" x2="281.94" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="20.32" x2="279.4" y2="20.32" width="0.1524" layer="91"/>
+<label x="279.4" y="20.32" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="PA7(AD7)"/>
-<wire x1="58.42" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
-<label x="63.5" y="142.24" size="0.8128" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="PA6(AD6)"/>
+<wire x1="541.02" y1="109.22" x2="530.86" y2="109.22" width="0.1524" layer="91"/>
+<label x="535.94" y="109.22" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA7(AD7)"/>
-<wire x1="530.86" y1="111.76" x2="541.02" y2="111.76" width="0.1524" layer="91"/>
-<label x="535.94" y="111.76" size="0.8128" layer="95" font="vector"/>
+<pinref part="U11" gate="G$1" pin="PA6(AD6)"/>
+<wire x1="68.58" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<label x="63.5" y="139.7" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="M0_A" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="IN1"/>
-<label x="195.58" y="22.86" size="0.8128" layer="95" font="vector"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="22.86" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
+<label x="177.8" y="15.24" size="0.8128" layer="95" font="vector"/>
+<wire x1="190.5" y1="15.24" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="PA3(AD3)"/>
@@ -16899,31 +16895,22 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </net>
 <net name="M1_A" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="IN1"/>
-<label x="297.18" y="22.86" size="0.8128" layer="95" font="vector"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="22.86" x2="276.86" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="22.86" x2="276.86" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="15.24" x2="279.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="279.4" y="15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="PA4(AD4)"/>
-<wire x1="68.58" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
-<label x="63.5" y="134.62" size="0.8128" layer="95" font="vector"/>
+<pinref part="U1" gate="G$1" pin="PA5(AD5)"/>
+<wire x1="530.86" y1="106.68" x2="541.02" y2="106.68" width="0.1524" layer="91"/>
+<label x="535.94" y="106.68" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA4(AD4)"/>
-<wire x1="541.02" y1="104.14" x2="530.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="535.94" y="104.14" size="0.8128" layer="95" font="vector"/>
+<pinref part="U11" gate="G$1" pin="PA5(AD5)"/>
+<wire x1="58.42" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="63.5" y="137.16" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="M2_B" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="IN2"/>
-<label x="195.58" y="-17.78" size="0.8128" layer="95" font="vector"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="-17.78" x2="180.34" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-17.78" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="PB0(SS/PCINT0)"/>
 <wire x1="58.42" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
@@ -16934,26 +16921,10 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="530.86" y1="71.12" x2="541.02" y2="71.12" width="0.1524" layer="91"/>
 <label x="535.94" y="71.12" size="0.8128" layer="95" font="vector"/>
 </segment>
-</net>
-<net name="N$15" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="VREG"/>
-<wire x1="226.06" y1="12.7" x2="241.3" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="VREG"/>
-<wire x1="342.9" y1="12.7" x2="327.66" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="VREG"/>
-<wire x1="226.06" y1="-25.4" x2="241.3" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="-17.78" x2="177.8" y2="-17.78" width="0.1524" layer="91"/>
+<label x="177.8" y="-17.78" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="IO_3" class="0">
@@ -16996,73 +16967,95 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </net>
 <net name="M2_O1" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="OUT1"/>
-<wire x1="246.38" y1="-30.48" x2="226.06" y2="-30.48" width="0.1524" layer="91"/>
-<label x="231.14" y="-30.48" size="0.8128" layer="95" font="vector"/>
+<wire x1="248.92" y1="-20.32" x2="238.76" y2="-20.32" width="0.1524" layer="91"/>
+<label x="233.68" y="-20.32" size="0.8128" layer="95" font="vector"/>
 <pinref part="MOT2" gate="G$1" pin="PIN"/>
+<pinref part="U3" gate="G$1" pin="OUT1"/>
+<wire x1="238.76" y1="-20.32" x2="228.6" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-20.32" x2="226.06" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="-27.94" x2="238.76" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="238.76" y="-20.32"/>
 </segment>
 </net>
 <net name="M1_O1" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="OUT1"/>
-<wire x1="347.98" y1="7.62" x2="327.66" y2="7.62" width="0.1524" layer="91"/>
-<label x="332.74" y="7.62" size="0.8128" layer="95" font="vector"/>
+<wire x1="350.52" y1="17.78" x2="340.36" y2="17.78" width="0.1524" layer="91"/>
+<label x="335.28" y="17.78" size="0.8128" layer="95" font="vector"/>
 <pinref part="MOT1" gate="G$1" pin="PIN"/>
+<pinref part="U7" gate="G$1" pin="OUT1"/>
+<wire x1="340.36" y1="17.78" x2="330.2" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="17.78" x2="327.66" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="10.16" x2="340.36" y2="17.78" width="0.1524" layer="91"/>
+<junction x="340.36" y="17.78"/>
 </segment>
 </net>
 <net name="M0_O1" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="OUT1"/>
-<wire x1="226.06" y1="7.62" x2="246.38" y2="7.62" width="0.1524" layer="91"/>
-<label x="231.14" y="7.62" size="0.8128" layer="95" font="vector"/>
+<wire x1="228.6" y1="17.78" x2="238.76" y2="17.78" width="0.1524" layer="91"/>
+<label x="233.68" y="17.78" size="0.8128" layer="95" font="vector"/>
 <pinref part="MOT0" gate="G$1" pin="PIN"/>
+<pinref part="U5" gate="G$1" pin="OUT1"/>
+<wire x1="238.76" y1="17.78" x2="248.92" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="17.78" x2="226.06" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="10.16" x2="238.76" y2="17.78" width="0.1524" layer="91"/>
+<junction x="238.76" y="17.78"/>
 </segment>
 </net>
 <net name="M0_O2" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="OUT2"/>
-<wire x1="226.06" y1="2.54" x2="241.3" y2="2.54" width="0.1524" layer="91"/>
-<label x="231.14" y="2.54" size="0.8128" layer="95" font="vector"/>
+<wire x1="228.6" y1="12.7" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
+<label x="233.68" y="12.7" size="0.8128" layer="95" font="vector"/>
 <pinref part="MOT0" gate="G$1" pin="SLEEVE"/>
 <pinref part="MOT0" gate="G$1" pin="SLEEVE_SHUNT"/>
-<wire x1="241.3" y1="2.54" x2="246.38" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="5.08" x2="241.3" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="5.08" x2="241.3" y2="2.54" width="0.1524" layer="91"/>
-<junction x="241.3" y="2.54"/>
+<wire x1="243.84" y1="12.7" x2="248.92" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="15.24" x2="243.84" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="15.24" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
+<junction x="243.84" y="12.7"/>
+<wire x1="228.6" y1="12.7" x2="228.6" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="OUT2"/>
+<wire x1="228.6" y1="10.16" x2="226.06" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="10.16" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M2_O2" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="OUT2"/>
-<wire x1="226.06" y1="-35.56" x2="241.3" y2="-35.56" width="0.1524" layer="91"/>
-<label x="231.14" y="-35.56" size="0.8128" layer="95" font="vector"/>
+<wire x1="228.6" y1="-25.4" x2="243.84" y2="-25.4" width="0.1524" layer="91"/>
+<label x="233.68" y="-25.4" size="0.8128" layer="95" font="vector"/>
 <pinref part="MOT2" gate="G$1" pin="SLEEVE"/>
 <pinref part="MOT2" gate="G$1" pin="SLEEVE_SHUNT"/>
-<wire x1="241.3" y1="-35.56" x2="246.38" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="-33.02" x2="241.3" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="-33.02" x2="241.3" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="241.3" y="-35.56"/>
+<wire x1="243.84" y1="-25.4" x2="248.92" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="-22.86" x2="243.84" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="-22.86" x2="243.84" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="243.84" y="-25.4"/>
+<wire x1="228.6" y1="-25.4" x2="228.6" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="OUT2"/>
+<wire x1="228.6" y1="-27.94" x2="226.06" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="-27.94" x2="243.84" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M1_O2" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="OUT2"/>
-<wire x1="342.9" y1="2.54" x2="327.66" y2="2.54" width="0.1524" layer="91"/>
-<label x="332.74" y="2.54" size="0.8128" layer="95" font="vector"/>
+<wire x1="345.44" y1="12.7" x2="330.2" y2="12.7" width="0.1524" layer="91"/>
+<label x="335.28" y="12.7" size="0.8128" layer="95" font="vector"/>
 <pinref part="MOT1" gate="G$1" pin="SLEEVE_SHUNT"/>
-<wire x1="347.98" y1="5.08" x2="342.9" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="5.08" x2="342.9" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="15.24" x2="345.44" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="15.24" x2="345.44" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="MOT1" gate="G$1" pin="SLEEVE"/>
-<wire x1="342.9" y1="2.54" x2="347.98" y2="2.54" width="0.1524" layer="91"/>
-<junction x="342.9" y="2.54"/>
+<wire x1="345.44" y1="12.7" x2="350.52" y2="12.7" width="0.1524" layer="91"/>
+<junction x="345.44" y="12.7"/>
+<wire x1="330.2" y1="12.7" x2="330.2" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="OUT2"/>
+<wire x1="330.2" y1="10.16" x2="327.66" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="10.16" x2="345.44" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M2_P" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="PWM"/>
-<wire x1="203.2" y1="-20.32" x2="193.04" y2="-20.32" width="0.1524" layer="91"/>
-<label x="195.58" y="-20.32" size="0.8128" layer="95" font="vector"/>
-</segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="PA2(AD2)"/>
 <wire x1="68.58" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
@@ -17073,12 +17066,17 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="541.02" y1="99.06" x2="530.86" y2="99.06" width="0.1524" layer="91"/>
 <label x="535.94" y="99.06" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="-27.94" x2="177.8" y2="-27.94" width="0.1524" layer="91"/>
+<label x="177.8" y="-27.94" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="M0_P" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="PWM"/>
-<wire x1="193.04" y1="17.78" x2="203.2" y2="17.78" width="0.1524" layer="91"/>
-<label x="195.58" y="17.78" size="0.8128" layer="95" font="vector"/>
+<wire x1="177.8" y1="10.16" x2="190.5" y2="10.16" width="0.1524" layer="91"/>
+<label x="177.8" y="10.16" size="0.8128" layer="95" font="vector"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="PA0(AD0)"/>
@@ -17093,11 +17091,6 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </net>
 <net name="M1_P" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="PWM"/>
-<wire x1="304.8" y1="17.78" x2="294.64" y2="17.78" width="0.1524" layer="91"/>
-<label x="297.18" y="17.78" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
 <pinref part="U11" gate="G$1" pin="PA1(AD1)"/>
 <wire x1="58.42" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
 <label x="63.5" y="127" size="0.8128" layer="95" font="vector"/>
@@ -17106,6 +17099,11 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <pinref part="U1" gate="G$1" pin="PA1(AD1)"/>
 <wire x1="530.86" y1="96.52" x2="541.02" y2="96.52" width="0.1524" layer="91"/>
 <label x="535.94" y="96.52" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="10.16" x2="279.4" y2="10.16" width="0.1524" layer="91"/>
+<label x="279.4" y="10.16" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -17188,7 +17186,7 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <pinref part="U11" gate="G$1" pin="UGND"/>
 <wire x1="-7.62" y1="78.74" x2="-17.78" y2="78.74" width="0.1524" layer="91"/>
 <label x="-17.78" y="78.74" size="0.8128" layer="95" font="vector"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="73.66" x2="-35.56" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="73.66" x2="-35.56" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="78.74" x2="-17.78" y2="78.74" width="0.1524" layer="91"/>
@@ -17309,18 +17307,6 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <label x="535.94" y="66.04" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="PE2" class="0">
-<segment>
-<pinref part="U11" gate="G$1" pin="PE2(ALE/HWB)"/>
-<wire x1="68.58" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
-<label x="63.5" y="38.1" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="PE2(ALE/HWB)"/>
-<wire x1="541.02" y1="7.62" x2="530.86" y2="7.62" width="0.1524" layer="91"/>
-<label x="535.94" y="7.62" size="0.8128" layer="95" font="vector"/>
-</segment>
-</net>
 <net name="PE1" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="PE1(/RD)"/>
@@ -17353,7 +17339,7 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="-17.78" y1="96.52" x2="-20.32" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="96.52" x2="-20.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="93.98" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="93.98" x2="-27.94" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="93.98" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
@@ -17522,18 +17508,6 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <label x="378.46" y="38.1" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="PB5" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
-<wire x1="541.02" y1="83.82" x2="530.86" y2="83.82" width="0.1524" layer="91"/>
-<label x="535.94" y="83.82" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U11" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
-<wire x1="68.58" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<label x="63.5" y="114.3" size="0.8128" layer="95" font="vector"/>
-</segment>
-</net>
 <net name="PB6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB6(PCINT6/OC.1B)"/>
@@ -17556,6 +17530,102 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <pinref part="U1" gate="G$1" pin="PD7(T0)"/>
 <wire x1="530.86" y1="43.18" x2="541.02" y2="43.18" width="0.1524" layer="91"/>
 <label x="535.94" y="43.18" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="INH"/>
+<wire x1="200.66" y1="10.16" x2="205.74" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="U3" gate="G$1" pin="INH"/>
+<wire x1="200.66" y1="-27.94" x2="205.74" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="U7" gate="G$1" pin="INH"/>
+<wire x1="302.26" y1="10.16" x2="307.34" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="IN2"/>
+<wire x1="200.66" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="20.32" x2="203.2" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="IN1"/>
+<wire x1="203.2" y1="17.78" x2="205.74" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="U7" gate="G$1" pin="IN2"/>
+<wire x1="302.26" y1="15.24" x2="307.34" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="IN1"/>
+<wire x1="307.34" y1="17.78" x2="304.8" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="17.78" x2="304.8" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="20.32" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="-17.78" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-17.78" x2="203.2" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="IN1"/>
+<wire x1="203.2" y1="-20.32" x2="205.74" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IN2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="-22.86" x2="200.66" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PE3" class="0">
+<segment>
+<pinref part="U11" gate="G$1" pin="PE3(IUID)"/>
+<wire x1="58.42" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<label x="63.5" y="40.64" size="0.8128" layer="95" font="vector"/>
+<pinref part="CG10" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="40.64" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PE3(IUID)"/>
+<wire x1="530.86" y1="10.16" x2="541.02" y2="10.16" width="0.1524" layer="91"/>
+<label x="535.94" y="10.16" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="PE2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE2(ALE/HWB)"/>
+<wire x1="541.02" y1="7.62" x2="530.86" y2="7.62" width="0.1524" layer="91"/>
+<label x="535.94" y="7.62" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U11" gate="G$1" pin="PE2(ALE/HWB)"/>
+<wire x1="68.58" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<label x="63.5" y="38.1" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
