@@ -1,6 +1,6 @@
 Partlist
 
-Exported from Super_Dolly_Board.sch at 1/11/2013 4:26:35 PM
+Exported from Super_Dolly_Board.sch at 1/15/2013 4:11:09 PM
 
 EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
 
@@ -81,14 +81,14 @@ R23      5K               RESISTOR0402                 0402_RES          parkers
 R24      0                RESISTOR0402                 0402_RES          parkers_parts         1
 R25      10K              RESISTOR0402                 0402_RES          parkers_parts         1
 R26      4.7K             RESISTOR0402                 0402_RES          parkers_parts         1
-R27      10K              RESISTOR0402                 0402_RES          parkers_parts         1
-R28      10K              RESISTOR0402                 0402_RES          parkers_parts         1
+R27      10K              RESISTOR0805                 0805              PP_Passives           1
+R28      10K              RESISTOR0805                 0805              PP_Passives           1
 R29      4.7K             RESISTOR0402                 0402_RES          parkers_parts         1
-R30      10K              RESISTOR0402                 0402_RES          parkers_parts         1
-R31      10K              RESISTOR0402                 0402_RES          parkers_parts         1
+R30      10K              RESISTOR0805                 0805              PP_Passives           1
+R31      10K              RESISTOR0805                 0805              PP_Passives           1
 R32      10K              RESISTOR0402                 0402_RES          parkers_parts         1
-R33      10K              RESISTOR0402                 0402_RES          parkers_parts         1
-R34      10K              RESISTOR0402                 0402_RES          parkers_parts         1
+R33      10K              RESISTOR0805                 0805              PP_Passives           1
+R34      10K              RESISTOR0805                 0805              PP_Passives           1
 SW1      SKQUDBE010       APLS_SKQ_MDSSMD              APLS_SKQ_MDS_SMD  parkers_parts         1
 U1       AT90USB646-MU    AT90USB647-MU                MLF64             at90usb               1
 U2       MMDT3904         MMDT3904                     SOT363            SparkFun-DiscreteSemi 1
