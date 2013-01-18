@@ -17609,7 +17609,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <label x="535.94" y="43.18" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="M0_P1" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="INH"/>
@@ -17630,14 +17630,14 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="302.26" y1="10.16" x2="307.34" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="M0_A1" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="IN2"/>
 <wire x1="200.66" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="M0_B1" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
