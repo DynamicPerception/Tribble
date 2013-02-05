@@ -15134,6 +15134,19 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-1.389" y="0.562" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="1206">
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-2.54" y="1.143" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR_POLAR">
@@ -15236,6 +15249,15 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </technologies>
 </device>
 <device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -15482,6 +15504,186 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 </deviceset>
 </devicesets>
 </library>
+<library name="PP_AnalogIC">
+<packages>
+<package name="TSOT-6">
+<smd name="1" x="-0.95" y="-1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
+<smd name="2" x="0" y="-1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
+<smd name="3" x="0.95" y="-1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
+<smd name="6" x="-0.95" y="1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
+<smd name="5" x="0" y="1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
+<smd name="4" x="0.95" y="1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.5" x2="-1.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.5" x2="-0.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-0.5" x2="-1.5" y2="-0.5" width="0.127" layer="21"/>
+<text x="-1.5" y="3" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LMP8640">
+<pin name="VOUT" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="V-" x="-7.62" y="0" visible="pin" length="short" rot="R90"/>
+<pin name="+IN" x="-7.62" y="17.78" visible="pin" length="short" rot="R270"/>
+<pin name="V+" x="10.16" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="-IN" x="0" y="17.78" visible="pin" length="short" rot="R270"/>
+<wire x1="-10.16" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="5.08" y="17.78" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="0" size="0.8128" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LMP8640" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LMP8640" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="TSOT-6" package="TSOT-6">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="V+" pad="6"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="PP_DiscreteSemi">
+<packages>
+<package name="SOT-23">
+<wire x1="1.7399" y1="2.2479" x2="1.7399" y2="-2.2479" width="0.1524" layer="51"/>
+<wire x1="1.7399" y1="-2.2479" x2="-1.7399" y2="-2.2479" width="0.1524" layer="51"/>
+<wire x1="-1.7399" y1="-2.2479" x2="-1.7399" y2="2.2479" width="0.1524" layer="51"/>
+<wire x1="-1.7399" y1="2.2479" x2="1.7399" y2="2.2479" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="2.286" y="0.127" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="DSO-8">
+<smd name="8" x="-2.54" y="2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="7" x="-1.27" y="2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="6" x="0" y="2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="5" x="1.27" y="2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="1" x="-2.54" y="-2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="2" x="-1.27" y="-2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<smd name="4" x="1.27" y="-2.9" dx="1.4" dy="0.75" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="4" x2="2.5" y2="4" width="0.127" layer="21"/>
+<wire x1="2.5" y1="4" x2="2.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-4" x2="-3.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-4" x2="-3.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1" x2="-3.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1" x2="-3.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1" x2="-2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="-3.5" y2="-1" width="0.127" layer="21"/>
+<text x="-3.5" y="4.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MOSFET_P-CHANNEL_SINGLE">
+<pin name="SOURCE" x="0" y="-7.62" visible="off" length="middle" rot="R90"/>
+<pin name="DRAIN" x="0" y="7.62" visible="off" length="middle" rot="R270"/>
+<pin name="GATE" x="-10.16" y="0" visible="off" length="middle"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.048" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-3.048" width="0.254" layer="94"/>
+<text x="-7.62" y="0.254" size="0.8128" layer="97" font="vector">G</text>
+<text x="0.508" y="-6.096" size="0.8128" layer="97" font="vector">S</text>
+<text x="0.508" y="5.08" size="0.8128" layer="97" font="vector">D</text>
+<text x="4.064" y="0.254" size="0.8128" layer="97" font="vector">&gt;NAME</text>
+<text x="4.064" y="-1.016" size="0.8128" layer="97" font="vector">&gt;VALUE</text>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-2.286" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.286" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="1.778" x2="-2.286" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="-2.286" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="1.27" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.778" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.016" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="1.27" y2="0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.254" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="0" y2="1.778" width="0.254" layer="94"/>
+<circle x="-1.27" y="0" radius="4.600134375" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-0.508" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0.254" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-1.016" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.762" x2="-1.27" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.016" x2="-1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-0.762" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.508" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-0.254" x2="-0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.762" x2="-1.016" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-0.762" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0.254" x2="-0.508" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0.508" y1="-1.016" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.016" x2="2.032" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.016" x2="0.508" y2="0.254" width="0.254" layer="94"/>
+<wire x1="0.508" y1="0.254" x2="2.032" y2="0.254" width="0.254" layer="94"/>
+<wire x1="2.032" y1="0.254" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.016" x2="1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="1.778" y1="0" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="1.016" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-0.254" x2="1.524" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.254" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="1.016" y2="-0.508" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOSFET_P-CHANNEL_SINGLE" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="MOSFET_P-CHANNEL_SINGLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT-23" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="3"/>
+<connect gate="G$1" pin="GATE" pad="1"/>
+<connect gate="G$1" pin="SOURCE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P3-POWER" package="DSO-8">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="5 6 7 8"/>
+<connect gate="G$1" pin="GATE" pad="4"/>
+<connect gate="G$1" pin="SOURCE" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15560,7 +15762,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
 <part name="R2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
 <part name="R1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
-<part name="D1" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG6010EP"/>
+<part name="D1" library="parkers_parts" deviceset="DIODE" device="SOD-123" value="MMSZ5240C-V-GS08"/>
 <part name="U$1" library="parkers_parts" deviceset="DP_FRAME" device="">
 <attribute name="DNAME" value="Parker Dillmann"/>
 <attribute name="PNAME" value="MX-2+1 "/>
@@ -15573,8 +15775,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="LOGO2" library="parkers_parts" deviceset="DP_LOGO" device="MICRO"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO3" library="parkers_parts" deviceset="DP_LOGO" device="SUPERDOLLYBOARDLOGO"/>
-<part name="U9" library="SparkFun-PowerIC" deviceset="V_REG_MIC2920" device="" value="TS2937CW50"/>
-<part name="C20" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="C21" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="CG5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="CG6" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
@@ -15589,7 +15789,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="20K"/>
 <part name="R4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4K"/>
 <part name="U1" library="at90usb" deviceset="AT90USB647-*" device="MU" value="AT90USB646-MU"/>
-<part name="D2" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG6010EP"/>
+<part name="D2" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG4010EP,115"/>
 <part name="CG4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="CG7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="U10" library="parkers_parts" deviceset="IP4234CZ6" device="SOT-457" value="IP4234CZ6"/>
@@ -15615,6 +15815,13 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R34" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="CG10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="AUX_2" library="PP_Connectors" deviceset="PH_1X08" device="1.27MM_PTH"/>
+<part name="U8" library="PP_AnalogIC" deviceset="LMP8640" device="TSOT-6" value="LMP8640MK-H/NOPB"/>
+<part name="C22" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
+<part name="R35" library="parkers_parts" deviceset="RESISTOR" device="0402" value="20K"/>
+<part name="C23" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
+<part name="R36" library="PP_Passives" deviceset="RESISTOR" device="1206" value="LRF1206-LF-R006JT"/>
+<part name="U12" library="PP_DiscreteSemi" deviceset="MOSFET_P-CHANNEL_SINGLE" device="P3-POWER" value="BSO080P03NS3E G"/>
+<part name="R37" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -15629,21 +15836,21 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="-109.22" y="2.54" rot="R180"/>
-<instance part="U4" gate="G$1" x="22.86" y="-5.08" smashed="yes">
-<attribute name="NAME" x="25.4" y="-12.7" size="0.8128" layer="95" font="vector"/>
-<attribute name="VALUE" x="25.4" y="-15.24" size="0.8128" layer="96" font="vector"/>
+<instance part="U4" gate="G$1" x="27.94" y="15.24" smashed="yes">
+<attribute name="NAME" x="30.48" y="7.62" size="0.8128" layer="95" font="vector"/>
+<attribute name="VALUE" x="30.48" y="5.08" size="0.8128" layer="96" font="vector"/>
 </instance>
-<instance part="C8" gate="G$1" x="10.16" y="-12.7"/>
-<instance part="C16" gate="G$1" x="43.18" y="-12.7"/>
-<instance part="C17" gate="G$1" x="0" y="-12.7" smashed="yes">
-<attribute name="NAME" x="1.016" y="-12.065" size="0.8128" layer="95"/>
-<attribute name="VALUE" x="1.016" y="-16.891" size="0.8128" layer="96"/>
+<instance part="C8" gate="G$1" x="15.24" y="7.62"/>
+<instance part="C16" gate="G$1" x="48.26" y="7.62"/>
+<instance part="C17" gate="G$1" x="5.08" y="7.62" smashed="yes">
+<attribute name="NAME" x="6.096" y="8.255" size="0.8128" layer="95"/>
+<attribute name="VALUE" x="6.096" y="3.429" size="0.8128" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="50.8" y="-12.7" smashed="yes">
-<attribute name="NAME" x="51.816" y="-12.065" size="0.8128" layer="95"/>
-<attribute name="VALUE" x="51.816" y="-16.891" size="0.8128" layer="96"/>
+<instance part="C18" gate="G$1" x="55.88" y="7.62" smashed="yes">
+<attribute name="NAME" x="56.896" y="8.255" size="0.8128" layer="95"/>
+<attribute name="VALUE" x="56.896" y="3.429" size="0.8128" layer="96"/>
 </instance>
-<instance part="PWR" gate="G$1" x="-50.8" y="-30.48"/>
+<instance part="PWR" gate="G$1" x="-38.1" y="-22.86"/>
 <instance part="X1" gate="G$1" x="-99.06" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="-95.504" y="139.7" size="0.8128" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="-103.632" y="142.494" size="0.8128" layer="96" font="vector" rot="R270"/>
@@ -15718,7 +15925,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <instance part="R3" gate="G$1" x="297.18" y="15.24" rot="R180"/>
 <instance part="R2" gate="G$1" x="195.58" y="-17.78" rot="R180"/>
 <instance part="R1" gate="G$1" x="195.58" y="-22.86" rot="R180"/>
-<instance part="D1" gate="G$1" x="-27.94" y="-33.02" rot="R270"/>
+<instance part="D1" gate="G$1" x="-7.62" y="-17.78" rot="R270"/>
 <instance part="U$1" gate="G$1" x="304.8" y="-48.26">
 <attribute name="DNAME" x="304.8" y="-48.26" size="0.8128" layer="96" font="vector" display="off"/>
 <attribute name="PNAME" x="304.8" y="-48.26" size="0.8128" layer="96" font="vector" display="off"/>
@@ -15731,14 +15938,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <instance part="LOGO2" gate="G$1" x="-78.74" y="58.42"/>
 <instance part="U$2" gate="G$1" x="-60.96" y="33.02"/>
 <instance part="LOGO3" gate="G$1" x="-78.74" y="58.42"/>
-<instance part="U9" gate="G$1" x="22.86" y="20.32" smashed="yes">
-<attribute name="NAME" x="25.4" y="12.7" size="0.8128" layer="95" font="vector"/>
-<attribute name="VALUE" x="25.4" y="10.16" size="0.8128" layer="96" font="vector"/>
-</instance>
-<instance part="C20" gate="G$1" x="7.62" y="12.7" smashed="yes">
-<attribute name="NAME" x="8.636" y="13.335" size="0.8128" layer="95"/>
-<attribute name="VALUE" x="8.636" y="8.509" size="0.8128" layer="96"/>
-</instance>
 <instance part="C21" gate="G$1" x="170.18" y="99.06" rot="R180"/>
 <instance part="CG5" gate="G$1" x="281.94" y="101.6" rot="R90"/>
 <instance part="CG6" gate="G$1" x="271.78" y="101.6" rot="R90"/>
@@ -15753,7 +15952,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <instance part="R5" gate="G$1" x="-104.14" y="93.98" rot="R90"/>
 <instance part="R4" gate="G$1" x="-104.14" y="78.74" rot="R90"/>
 <instance part="U1" gate="G$1" x="497.84" y="58.42"/>
-<instance part="D2" gate="G$1" x="388.62" y="132.08"/>
+<instance part="D2" gate="G$1" x="383.54" y="132.08" rot="R180"/>
 <instance part="CG4" gate="G$1" x="322.58" y="132.08" rot="R180"/>
 <instance part="CG7" gate="G$1" x="322.58" y="127" rot="R180"/>
 <instance part="U10" gate="G$1" x="-96.52" y="-15.24" rot="R270"/>
@@ -15763,7 +15962,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <instance part="CG8" gate="G$1" x="109.22" y="40.64" rot="R90"/>
 <instance part="CG9" gate="G$1" x="119.38" y="40.64" rot="R90"/>
 <instance part="AUX_1" gate="A" x="388.62" y="35.56"/>
-<instance part="C12" gate="G$1" x="-10.16" y="-12.7"/>
+<instance part="C12" gate="G$1" x="-5.08" y="7.62"/>
 <instance part="R25" gate="G$1" x="182.88" y="114.3" rot="R270"/>
 <instance part="U3" gate="G$1" x="215.9" y="-25.4"/>
 <instance part="U5" gate="G$1" x="215.9" y="12.7"/>
@@ -15779,6 +15978,13 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <instance part="R34" gate="G$1" x="340.36" y="5.08" rot="R270"/>
 <instance part="CG10" gate="G$1" x="76.2" y="33.02" rot="R90"/>
 <instance part="AUX_2" gate="G$1" x="391.16" y="60.96"/>
+<instance part="U8" gate="G$1" x="271.78" y="33.02"/>
+<instance part="C22" gate="G$1" x="289.56" y="50.8"/>
+<instance part="R35" gate="G$1" x="289.56" y="38.1" rot="R180"/>
+<instance part="C23" gate="G$1" x="297.18" y="50.8"/>
+<instance part="R36" gate="G$1" x="266.7" y="58.42"/>
+<instance part="U12" gate="G$1" x="-17.78" y="-10.16" rot="R90"/>
+<instance part="R37" gate="G$1" x="-17.78" y="-33.02" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15791,16 +15997,16 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="OUT"/>
-<wire x1="30.48" y1="-5.08" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
-<label x="48.26" y="-5.08" size="0.8128" layer="95"/>
+<wire x1="35.56" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<label x="53.34" y="15.24" size="0.8128" layer="95"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="-5.08" x2="50.8" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-5.08" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-10.16" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="43.18" y="-5.08"/>
+<wire x1="48.26" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="10.16" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<junction x="48.26" y="15.24"/>
 <pinref part="C18" gate="G$1" pin="+"/>
-<wire x1="50.8" y1="-10.16" x2="50.8" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="50.8" y="-5.08"/>
+<wire x1="55.88" y1="10.16" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<junction x="55.88" y="15.24"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -15844,11 +16050,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="157.48" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="LCD1" gate="G$1" pin="A"/>
 <label x="144.78" y="48.26" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U9" gate="G$1" pin="OUT"/>
-<wire x1="30.48" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
-<label x="35.56" y="20.32" size="0.8128" layer="95"/>
 </segment>
 <segment>
 <wire x1="-58.42" y1="7.62" x2="-45.72" y2="7.62" width="0.1524" layer="91"/>
@@ -15952,6 +16153,13 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="386.08" y1="68.58" x2="381" y2="68.58" width="0.1524" layer="91"/>
 <label x="381" y="68.58" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="U8" gate="G$1" pin="V+"/>
+<wire x1="289.56" y1="45.72" x2="289.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="43.18" x2="281.94" y2="43.18" width="0.1524" layer="91"/>
+<label x="284.48" y="43.18" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -15969,42 +16177,41 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
-<wire x1="22.86" y1="-12.7" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
-<label x="22.86" y="-25.4" size="0.8128" layer="95"/>
+<wire x1="27.94" y1="7.62" x2="27.94" y2="0" width="0.1524" layer="91"/>
+<label x="27.94" y="-5.08" size="0.8128" layer="95"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-20.32" x2="22.86" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-17.78" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-20.32" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="0" x2="27.94" y2="0" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-20.32" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-20.32" x2="43.18" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="22.86" y="-20.32"/>
+<wire x1="27.94" y1="0" x2="48.26" y2="0" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="0" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
+<junction x="27.94" y="0"/>
 <pinref part="C17" gate="G$1" pin="-"/>
-<wire x1="0" y1="-17.78" x2="0" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="0" y1="-20.32" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="10.16" y="-20.32"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="0" x2="15.24" y2="0" width="0.1524" layer="91"/>
+<junction x="15.24" y="0"/>
 <pinref part="C18" gate="G$1" pin="-"/>
-<wire x1="43.18" y1="-20.32" x2="50.8" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-20.32" x2="50.8" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="43.18" y="-20.32"/>
+<wire x1="48.26" y1="0" x2="55.88" y2="0" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="0" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
+<junction x="48.26" y="0"/>
 <pinref part="C12" gate="G$1" pin="NEG"/>
-<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="0" y="-20.32"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="91"/>
+<junction x="5.08" y="0"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="SLEEVE_SHUNT"/>
-<wire x1="-45.72" y1="-30.48" x2="-43.18" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-30.48" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-22.86" x2="-30.48" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-22.86" x2="-30.48" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="PWR" gate="G$1" pin="SLEEVE"/>
-<wire x1="-43.18" y1="-33.02" x2="-45.72" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-33.02" x2="-33.02" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="-43.18" y="-33.02"/>
-<label x="-38.1" y="-33.02" size="0.8128" layer="95" font="vector"/>
-<wire x1="-33.02" y1="-33.02" x2="-33.02" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-38.1" x2="-27.94" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="ANODE"/>
-<wire x1="-27.94" y1="-38.1" x2="-27.94" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-25.4" x2="-33.02" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-25.4" x2="-30.48" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-25.4"/>
+<label x="-25.4" y="-40.64" size="0.8128" layer="95" font="vector"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="-38.1" x2="-17.78" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-40.64" x2="-30.48" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -16118,16 +16325,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <junction x="238.76" y="-2.54"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="GND"/>
-<wire x1="22.86" y1="12.7" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
-<label x="22.86" y="0" size="0.8128" layer="95"/>
-<wire x1="22.86" y1="5.08" x2="22.86" y2="0" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="5.08" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
-<junction x="22.86" y="5.08"/>
-<pinref part="C20" gate="G$1" pin="-"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="96.52" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 <label x="170.18" y="91.44" size="0.8128" layer="95" font="vector"/>
@@ -16187,14 +16384,11 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <label x="454.66" y="86.36" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="ANODE"/>
-<wire x1="391.16" y1="132.08" x2="398.78" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="132.08" x2="398.78" y2="129.54" width="0.1524" layer="91"/>
 <label x="398.78" y="129.54" size="0.8128" layer="95" font="vector"/>
 <pinref part="CG1" gate="G$1" pin="1"/>
 <wire x1="391.16" y1="139.7" x2="398.78" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="139.7" x2="398.78" y2="132.08" width="0.1524" layer="91"/>
-<junction x="398.78" y="132.08"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="S"/>
@@ -16254,6 +16448,21 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="386.08" y1="66.04" x2="381" y2="66.04" width="0.1524" layer="91"/>
 <label x="381" y="66.04" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="V-"/>
+<wire x1="264.16" y1="33.02" x2="264.16" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="27.94" x2="269.24" y2="27.94" width="0.1524" layer="91"/>
+<label x="266.7" y="27.94" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="289.56" y1="53.34" x2="289.56" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="55.88" x2="294.64" y2="55.88" width="0.1524" layer="91"/>
+<label x="292.1" y="55.88" size="0.8128" layer="95" font="vector"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="297.18" y1="53.34" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="55.88" x2="294.64" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="AREF" class="4">
 <segment>
@@ -16276,28 +16485,16 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <net name="VIN" class="1">
 <segment>
 <pinref part="U4" gate="G$1" pin="IN"/>
-<wire x1="15.24" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
-<label x="2.54" y="-5.08" size="0.8128" layer="95"/>
+<wire x1="20.32" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<label x="7.62" y="15.24" size="0.8128" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="10.16" y="-5.08"/>
+<wire x1="15.24" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<junction x="15.24" y="15.24"/>
 <pinref part="C17" gate="G$1" pin="+"/>
-<wire x1="0" y1="-10.16" x2="0" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="0" y="-5.08"/>
-<pinref part="C12" gate="G$1" pin="POS"/>
-<wire x1="-2.54" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="PWR" gate="G$1" pin="PIN"/>
-<wire x1="-45.72" y1="-27.94" x2="-33.02" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-38.1" y="-27.94" size="0.8128" layer="95" font="vector"/>
-<wire x1="-33.02" y1="-27.94" x2="-33.02" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="CATHODE"/>
-<wire x1="-33.02" y1="-25.4" x2="-27.94" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-25.4" x2="-27.94" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
+<junction x="5.08" y="15.24"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -16307,26 +16504,27 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <label x="-109.22" y="104.14" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="VS"/>
-<wire x1="205.74" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
-<label x="177.8" y="22.86" size="0.8128" layer="95" font="vector"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="22.86" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R36" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="58.42" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="58.42" x2="256.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="+IN"/>
+<wire x1="264.16" y1="53.34" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="256.54" y="58.42" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VS"/>
-<wire x1="205.74" y1="-15.24" x2="172.72" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="-15.24" x2="172.72" y2="-20.32" width="0.1524" layer="91"/>
-<label x="177.8" y="-15.24" size="0.8128" layer="95" font="vector"/>
+<pinref part="U12" gate="G$1" pin="SOURCE"/>
+<wire x1="-10.16" y1="-10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-5.08" y="-10.16" size="0.8128" layer="95" font="vector"/>
+<junction x="-7.62" y="-10.16"/>
+<wire x1="-7.62" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="CATHODE"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="VS"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="22.86" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="22.86" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="279.4" y="22.86" size="0.8128" layer="95" font="vector"/>
+<pinref part="D2" gate="G$1" pin="CATHODE"/>
+<wire x1="388.62" y1="132.08" x2="393.7" y2="132.08" width="0.1524" layer="91"/>
+<label x="391.16" y="132.08" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -16934,24 +17132,15 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <net name="12VB" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="6"/>
-<wire x1="365.76" y1="129.54" x2="381" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="129.54" x2="375.92" y2="129.54" width="0.1524" layer="91"/>
 <label x="370.84" y="129.54" size="0.8128" layer="95" font="vector"/>
 <pinref part="J4" gate="G$1" pin="7"/>
 <label x="370.84" y="132.08" size="0.8128" layer="95" font="vector"/>
-<wire x1="365.76" y1="132.08" x2="381" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="381" y1="129.54" x2="381" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="CATHODE"/>
-<wire x1="381" y1="132.08" x2="383.54" y2="132.08" width="0.1524" layer="91"/>
-<junction x="381" y="132.08"/>
-</segment>
-<segment>
-<pinref part="U9" gate="G$1" pin="IN"/>
-<label x="10.16" y="20.32" size="0.8128" layer="95"/>
-<wire x1="15.24" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="15.24" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="20.32" x2="5.08" y2="20.32" width="0.1524" layer="91"/>
-<junction x="7.62" y="20.32"/>
+<wire x1="365.76" y1="132.08" x2="375.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="129.54" x2="375.92" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="ANODE"/>
+<wire x1="375.92" y1="132.08" x2="381" y2="132.08" width="0.1524" layer="91"/>
+<junction x="375.92" y="132.08"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -17367,11 +17556,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="393.7" y1="33.02" x2="401.32" y2="33.02" width="0.1524" layer="91"/>
 <label x="398.78" y="33.02" size="0.8128" layer="95" font="vector"/>
 </segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="ST"/>
-<wire x1="205.74" y1="12.7" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
-<label x="177.8" y="12.7" size="0.8128" layer="95" font="vector"/>
-</segment>
 </net>
 <net name="PF6" class="0">
 <segment>
@@ -17389,12 +17573,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="378.46" y1="33.02" x2="386.08" y2="33.02" width="0.1524" layer="91"/>
 <label x="378.46" y="33.02" size="0.8128" layer="95" font="vector"/>
 </segment>
-<segment>
-<pinref part="U7" gate="G$1" pin="ST"/>
-<wire x1="307.34" y1="12.7" x2="302.26" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="12.7" x2="279.4" y2="12.7" width="0.1524" layer="91"/>
-<label x="279.4" y="12.7" size="0.8128" layer="95" font="vector"/>
-</segment>
 </net>
 <net name="PF5" class="0">
 <segment>
@@ -17411,11 +17589,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <pinref part="AUX_1" gate="A" pin="6"/>
 <wire x1="393.7" y1="35.56" x2="401.32" y2="35.56" width="0.1524" layer="91"/>
 <label x="398.78" y="35.56" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="ST"/>
-<wire x1="205.74" y1="-25.4" x2="177.8" y2="-25.4" width="0.1524" layer="91"/>
-<label x="177.8" y="-25.4" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="PF4" class="0">
@@ -17684,6 +17857,15 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="378.46" y1="38.1" x2="386.08" y2="38.1" width="0.1524" layer="91"/>
 <label x="378.46" y="38.1" size="0.8128" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="38.1" x2="297.18" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="38.1" x2="297.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="38.1" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
+<junction x="297.18" y="38.1"/>
+<label x="299.72" y="38.1" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="PB6" class="0">
 <segment>
@@ -17815,6 +17997,73 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <pinref part="AUX_2" gate="G$1" pin="3"/>
 <wire x1="386.08" y1="63.5" x2="381" y2="63.5" width="0.1524" layer="91"/>
 <label x="381" y="63.5" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="VOUT"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="38.1" x2="284.48" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VIN_M" class="1">
+<segment>
+<pinref part="U7" gate="G$1" pin="VS"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="22.86" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="22.86" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="279.4" y="22.86" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="58.42" x2="276.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="58.42" x2="276.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="53.34" x2="271.78" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="-IN"/>
+<wire x1="271.78" y1="53.34" x2="271.78" y2="50.8" width="0.1524" layer="91"/>
+<label x="274.32" y="58.42" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="VS"/>
+<wire x1="205.74" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
+<label x="177.8" y="22.86" size="0.8128" layer="95" font="vector"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="22.86" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="VS"/>
+<wire x1="205.74" y1="-15.24" x2="172.72" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="-15.24" x2="172.72" y2="-20.32" width="0.1524" layer="91"/>
+<label x="177.8" y="-15.24" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="POS"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="10.16" width="0.1524" layer="91"/>
+<label x="-5.08" y="15.24" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="VIN_J" class="0">
+<segment>
+<pinref part="PWR" gate="G$1" pin="PIN"/>
+<wire x1="-33.02" y1="-20.32" x2="-30.48" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-20.32" x2="-30.48" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="DRAIN"/>
+<wire x1="-30.48" y1="-10.16" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-30.48" y="-10.16" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="GATE"/>
+<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<junction x="-17.78" y="-22.86"/>
+<wire x1="-17.78" y1="-22.86" x2="-17.78" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="ANODE"/>
+<wire x1="-17.78" y1="-22.86" x2="-7.62" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-22.86" x2="-7.62" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
