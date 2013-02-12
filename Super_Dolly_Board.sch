@@ -15368,8 +15368,8 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="C7" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="J2" library="parkers_parts" deviceset="P2X03" device=""/>
 <part name="J3" library="parkers_parts" deviceset="TRS_STEREO_JACK" device="SJ1-2503A" value="SJ1-2503A"/>
-<part name="CG2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="CG3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
 <part name="MOT0" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
 <part name="MOT1" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
 <part name="MOT2" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
@@ -15393,8 +15393,8 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO3" library="parkers_parts" deviceset="DP_LOGO" device="SUPERDOLLYBOARDLOGO"/>
 <part name="C21" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="CG5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="CG6" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG6" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
 <part name="R23" library="parkers_parts" deviceset="RESISTOR" device="0402" value="5K"/>
 <part name="U11" library="at90usb" deviceset="AT90USB647-*" device="AU" value="AT90USB646-AU"/>
 <part name="R22" library="parkers_parts" deviceset="RESISTOR" device="0402" value="0"/>
@@ -15407,14 +15407,14 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4K"/>
 <part name="U1" library="at90usb" deviceset="AT90USB647-*" device="MU" value="AT90USB646-MU"/>
 <part name="D2" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG4010EP,115"/>
-<part name="CG4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="CG7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
 <part name="U10" library="parkers_parts" deviceset="IP4234CZ6" device="SOT-457" value="IP4234CZ6"/>
-<part name="CG1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
 <part name="C14" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="J6" library="parkers_parts" deviceset="TRS_STEREO_JACK" device="SJ1-2503A" value="SJ1-2503A"/>
-<part name="CG8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
-<part name="CG9" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG9" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
 <part name="C12" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
 <part name="R25" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="U3" library="PP_PowerIC" deviceset="BTM7755" device="PG-DSO-36-29" value="BTM7755"/>
@@ -15429,7 +15429,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R32" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
 <part name="R33" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R34" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="CG10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
 <part name="AUX_2" library="PP_Connectors" deviceset="PH_1X08" device="1.27MM_PTH"/>
 <part name="U8" library="PP_AnalogIC" deviceset="LMP8640" device="TSOT-6" value="LMP8640MK-H/NOPB"/>
 <part name="C22" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
