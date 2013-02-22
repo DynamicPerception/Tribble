@@ -1,45 +1,111 @@
 Partlist
 
-Exported from mini-drv-mount.sch at 2/18/2013 3:57:18 PM
+Exported from Super_Dolly_Board.sch at 2/21/2013 10:25:38 AM
 
 EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
 
 Assembly variant: 
 
-Part     Value            Device                          Package           Library              Sheet
+Part     Value             Device                          Package               Library               Sheet
 
-C1       .1uF             CAPACITOR_NON_POLAR0402         0402              PP_Passives          1
-C2       .1uF             CAPACITOR_NON_POLAR0402         0402              PP_Passives          1
-C3       .1uF 35V         CAPACITOR_NON_POLAR0402         0402              PP_Passives          1
-C4       100uF            CAPACITOR_POLARIZED6.3MM_SMD    6.3MM_CAP_SMD     PP_Passives          1
-CG1      TPD1E10B06DPYR   RESISTOR0402                    0402              PP_Passives          1
-CG2      TPD1E10B06DPYR   RESISTOR0402                    0402              PP_Passives          1
-CG3      TPD1E10B06DPYR   RESISTOR0402                    0402              PP_Passives          1
-CG4      TPD1E10B06DPYR   RESISTOR0402                    0402              PP_Passives          1
-CG5      TPD1E10B06DPYR   RESISTOR0402                    0402              PP_Passives          1
-CG6      TPD1E10B06DPYR   RESISTOR0402                    0402              PP_Passives          1
-CG7      TPD1E10B06DPYR   RESISTOR0402                    0402              PP_Passives          1
-D1       PMEG6010EP,115   DIODESOD-128                    SOD-128           PP_Passives          1
-D2       MMSZ5240C-V-GS08 DIODESOD-123                    SOD-123           parkers_parts        1
-F1       MF-SM050-2-99    PTC_FUSE2920                    2920              PP_Passives          1
-J1       RJHSE-5385-02    RJ45_DOUBLEPTH                  RJHSE-5385-02     PP_Connectors        1
-J2       KLDX-0202-A-LT   DC_JACKPTH_TIGHT                DC_JACK_PTH_TIGHT PP_Connectors        1
-J3       SJ1-2503A        TRS_JACKSJ1-2503A               SJ1-2503A         PP_Connectors        1
-J4       SJ1-2503A        TRS_JACKSJ1-2503A               SJ1-2503A         PP_Connectors        1
-J5       MOTIN            PINHD-1X4                       1X04              pinhead              1
-J7       CAMIN            PINHD-1X4                       1X04              pinhead              1
-J8       COMM             PINHD-2X7                       2X07              pinhead              1
-J9       KPJX-4S          PH_1X04KPJX-4S                  KPJX-4S           PP_Connectors        1
-R1       220              RESISTOR0402                    0402              PP_Passives          1
-R2       220              RESISTOR0402                    0402              PP_Passives          1
-R3       220              RESISTOR0402                    0402              PP_Passives          1
-R4       220              RESISTOR0402                    0402              PP_Passives          1
-R37      10K              RESISTOR0402                    0402_RES          parkers_parts        1
-SW1      EVQ-PF308K       SPSTEVQPF_TACT                  EVQPF_TACT        PP_Electromechanical 1
-TVS1     CD0603-Z27       RESISTOR0603                    0603              PP_Passives          1
-TVS2     CD0603-Z27       RESISTOR0603                    0603              PP_Passives          1
-TVS3     CD0603-Z27       RESISTOR0603                    0603              PP_Passives          1
-TVS4     CD0603-Z27       RESISTOR0603                    0603              PP_Passives          1
-U1       TPD2E007DCK      TPD2E007DCK                     DCK               PP_Passives          1
-U3       FDS6681Z         MOSFET_P-CHANNEL_SINGLEP3-POWER DSO-8             PP_DiscreteSemi      1
-U4       MC78M05CDTG      FIXED_VOLTAGE_REGDPAK-3         DPAK-3            PP_PowerIC           1
+AUX_2                      PH_1X081.27MM_PTH               HEADER_01X08_1.27_PTH PP_Connectors         1
+C1       .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C2       .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C3       6pF               CAP0402                         C0402                 SparkFun              1
+C4       6pF               CAP0402                         C0402                 SparkFun              1
+C5       .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C6       .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C7       .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C8       .1uF 35V          CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C9       .1uF 35V          CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C10      .1uF 35V          CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C11      .1uF 35V          CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C12      100uF             CAPACITOR_POLARIZED6.3MM_SMD    6.3MM_CAP_SMD         PP_Passives           1
+C13      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C14      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C15      1uF               CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C16      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C17      2.2uF             CAP_POL1206                     EIA3216               SparkFun              1
+C18      10uF              CAP_POL1206                     EIA3216               SparkFun              1
+C19      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C21      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C22      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C23      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+CG1      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG2      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG3      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG4      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG5      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG6      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG7      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG8      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG9      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG10     TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+D1       MMSZ5240C-V-GS08  DIODESOD-123                    SOD-123               parkers_parts         1
+D2       PMEG4010EP,115    DIODESOD-128                    SOD-128               parkers_parts         1
+J1       10118193-0001LF   USB-PTH-MICROB                  -PTH-MICROB           SparkFun-Connectors   1
+J2                         P2X03                           P2X03                 parkers_parts         1
+J3       SJ1-2503A         TRS_STEREO_JACKSJ1-2503A        SJ1-2503A             parkers_parts         1
+J4       RJHSE-5381        RJHS-538X                       RIGHT_ANGLE           amphenol ethernet     1
+J5       SJ1-2503A         TRS_STEREO_JACKSJ1-2503A        SJ1-2503A             parkers_parts         1
+J6       SJ1-2503A         TRS_STEREO_JACKSJ1-2503A        SJ1-2503A             parkers_parts         1
+J7       HFW6R-2STE1LF     PH_1X06FFC                      HFW6R-2STE1LF         PP_Connectors         1
+LCD1     LCD-16X2NOHOLES   LCD-16X2NOHOLES                 LCD-16X2_NOHOLES      SparkFun-Displays     1
+MOT0     KLDX-0202-B-LT    DC_JACKPTH_TIGHT                DC_JACK_PTH_TIGHT     PP_Connectors         1
+MOT1     KLDX-0202-B-LT    DC_JACKPTH_TIGHT                DC_JACK_PTH_TIGHT     PP_Connectors         1
+MOT2     KLDX-0202-B-LT    DC_JACKPTH_TIGHT                DC_JACK_PTH_TIGHT     PP_Connectors         1
+OK1      ACPL-227          ACPL-227                        SOIC8                 avago-opto            1
+P1       TC33X-2           TC33X-2                         3MMSMD                bourns trimpot        1
+PWR      KLDX-0202-A-LT    DC_JACKPTH_TIGHT                DC_JACK_PTH_TIGHT     PP_Connectors         1
+R1       4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R2       4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R3       4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R4       4K                RESISTOR0402                    0402_RES              parkers_parts         1
+R5       20K               RESISTOR0402                    0402_RES              parkers_parts         1
+R6       4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R7       4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R8       4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R9       120               RESISTOR0402                    0402_RES              parkers_parts         1
+R10      330               RESISTOR0402                    0402_RES              parkers_parts         1
+R11      10K               RESISTOR0402                    0402_RES              parkers_parts         1
+R12      500               RESISTOR0402                    0402_RES              parkers_parts         1
+R13      100               RESISTOR0402                    0402_RES              parkers_parts         1
+R14      5K                RESISTOR0402                    0402_RES              parkers_parts         1
+R15      330               RESISTOR0402                    0402_RES              parkers_parts         1
+R16      100               RESISTOR0402                    0402_RES              parkers_parts         1
+R17      500               RESISTOR0402                    0402_RES              parkers_parts         1
+R18      500               RESISTOR0402                    0402_RES              parkers_parts         1
+R19      500               RESISTOR0402                    0402_RES              parkers_parts         1
+R20      500               RESISTOR0402                    0402_RES              parkers_parts         1
+R21      2.6K              RESISTOR0402                    0402_RES              parkers_parts         1
+R22      0                 RESISTOR0402                    0402_RES              parkers_parts         1
+R23      5K                RESISTOR0402                    0402_RES              parkers_parts         1
+R24      0                 RESISTOR0402                    0402_RES              parkers_parts         1
+R25      10K               RESISTOR0402                    0402_RES              parkers_parts         1
+R26      4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R27      10K               RESISTOR0805                    0805                  PP_Passives           1
+R28      10K               RESISTOR0805                    0805                  PP_Passives           1
+R29      4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R30      10K               RESISTOR0805                    0805                  PP_Passives           1
+R31      10K               RESISTOR0805                    0805                  PP_Passives           1
+R32      4.7K              RESISTOR0402                    0402_RES              parkers_parts         1
+R33      10K               RESISTOR0805                    0805                  PP_Passives           1
+R34      10K               RESISTOR0805                    0805                  PP_Passives           1
+R35      20K               RESISTOR0402                    0402_RES              parkers_parts         1
+R36      LRF1206-LF-R006JT RESISTOR1206                    1206                  PP_Passives           1
+R37      10K               RESISTOR0402                    0402_RES              parkers_parts         1
+U1       AT90USB646-MU     AT90USB647-MU                   MLF64                 at90usb               1
+U2       MMDT3904          MMDT3904                        SOT363                SparkFun-DiscreteSemi 1
+U3       BTM7755           BTM7755PG-DSO-36-29             PG-DSO-36-29          PP_PowerIC            1
+U4       MC78M05CDTG       FIXED_VOLTAGE_REGDPAK-3         DPAK-3                PP_PowerIC            1
+U5                         BTM7755PG-DSO-36-29             PG-DSO-36-29          PP_PowerIC            1
+U6       ISL8483           SN65176D                        SO-08                 texas                 1
+U7                         BTM7755PG-DSO-36-29             PG-DSO-36-29          PP_PowerIC            1
+U8       LMP8640MK-F/NOPB  LMP8640TSOT-6                   TSOT-6                PP_AnalogIC           1
+U9       MCP9701T-E/TT     MCP970XSOT-23-3                 SOT-23-3              PP_Sensors            1
+U10      IP4234CZ6         IP4234CZ6SOT-457                SOT-457               parkers_parts         1
+U11      AT90USB646-AU     AT90USB647-AU                   TQFP64                at90usb               1
+U12      FDS6681Z          MOSFET_P-CHANNEL_SINGLEP3-POWER DSO-8                 PP_DiscreteSemi       1
+U13      MCP9701T-E/TT     MCP970XSOT-23-3                 SOT-23-3              PP_Sensors            1
+U14      MCP9701T-E/TT     MCP970XSOT-23-3                 SOT-23-3              PP_Sensors            1
+X1       3.2X2.5MMCRYSTAL  3.2X2.5MMCRYSTAL                3.2X2.5MM             kyocera-crystals      1

@@ -15422,7 +15422,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R34" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="CG10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
 <part name="AUX_2" library="PP_Connectors" deviceset="PH_1X08" device="1.27MM_PTH"/>
-<part name="U8" library="PP_AnalogIC" deviceset="LMP8640" device="TSOT-6" value="LMP8640MK-H/NOPB"/>
+<part name="U8" library="PP_AnalogIC" deviceset="LMP8640" device="TSOT-6" value="LMP8640MK-F/NOPB"/>
 <part name="C22" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="R35" library="parkers_parts" deviceset="RESISTOR" device="0402" value="20K"/>
 <part name="C23" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
