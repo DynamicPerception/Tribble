@@ -1,0 +1,16 @@
+Partlist
+
+Exported from Input_Board.sch at 3/18/2013 1:31:10 PM
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device         Package       Library              Sheet
+
+J1       HFW6R-2STE1LF  PH_1X06FFC     HFW6R-2STE1LF PP_Connectors        1
+SW1      EVQ-Q2203W     SPSTEVQ-Q2203W EVQ-Q2203W    PP_Electromechanical 1
+SW2      EVQ-Q2203W     SPSTEVQ-Q2203W EVQ-Q2203W    PP_Electromechanical 1
+SW3      EVQ-Q2203W     SPSTEVQ-Q2203W EVQ-Q2203W    PP_Electromechanical 1
+SW4      EVQ-Q2203W     SPSTEVQ-Q2203W EVQ-Q2203W    PP_Electromechanical 1
+SW5      EVQ-Q2203W     SPSTEVQ-Q2203W EVQ-Q2203W    PP_Electromechanical 1

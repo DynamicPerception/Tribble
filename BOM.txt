@@ -1,6 +1,6 @@
 Partlist
 
-Exported from Super_Dolly_Board.sch at 2/21/2013 10:25:38 AM
+Exported from Super_Dolly_Board.sch at 3/18/2013 1:27:27 PM
 
 EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
 
@@ -28,19 +28,19 @@ C16      .1uF              CAP_NONPOL0402                  0402_CAP             
 C17      2.2uF             CAP_POL1206                     EIA3216               SparkFun              1
 C18      10uF              CAP_POL1206                     EIA3216               SparkFun              1
 C19      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
+C20      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
 C21      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
 C22      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
-C23      .1uF              CAP_NONPOL0402                  0402_CAP              parkers_parts         1
-CG1      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG2      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG3      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG4      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG5      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG6      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG7      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG8      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG9      TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
-CG10     TPD1E10B06DPYR    RESISTOR0402                    0402_RES              parkers_parts         1
+CG1      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG2      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG3      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG4      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG5      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG6      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG7      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG8      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG9      CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
+CG10     CG0402MLC-05LG    RESISTOR0402                    0402_RES              parkers_parts         1
 D1       MMSZ5240C-V-GS08  DIODESOD-123                    SOD-123               parkers_parts         1
 D2       PMEG4010EP,115    DIODESOD-128                    SOD-128               parkers_parts         1
 J1       10118193-0001LF   USB-PTH-MICROB                  -PTH-MICROB           SparkFun-Connectors   1
@@ -108,4 +108,5 @@ U11      AT90USB646-AU     AT90USB647-AU                   TQFP64               
 U12      FDS6681Z          MOSFET_P-CHANNEL_SINGLEP3-POWER DSO-8                 PP_DiscreteSemi       1
 U13      MCP9701T-E/TT     MCP970XSOT-23-3                 SOT-23-3              PP_Sensors            1
 U14      MCP9701T-E/TT     MCP970XSOT-23-3                 SOT-23-3              PP_Sensors            1
+U15      MC78M05CDTG       FIXED_VOLTAGE_REGDPAK-3         DPAK-3                PP_PowerIC            1
 X1       3.2X2.5MMCRYSTAL  3.2X2.5MMCRYSTAL                3.2X2.5MM             kyocera-crystals      1

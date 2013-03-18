@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="10" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="10" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="2" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="12" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -15359,8 +15359,8 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="C7" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="J2" library="parkers_parts" deviceset="P2X03" device=""/>
 <part name="J3" library="parkers_parts" deviceset="TRS_STEREO_JACK" device="SJ1-2503A" value="SJ1-2503A"/>
-<part name="CG2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
-<part name="CG3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="MOT0" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
 <part name="MOT1" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
 <part name="MOT2" library="PP_Connectors" deviceset="DC_JACK" device="PTH_TIGHT" value="KLDX-0202-B-LT"/>
@@ -15377,15 +15377,15 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="U$1" library="parkers_parts" deviceset="DP_FRAME" device="">
 <attribute name="DNAME" value="Parker Dillmann"/>
 <attribute name="PNAME" value="MX-2+1 "/>
-<attribute name="REVNUM" value="4"/>
+<attribute name="REVNUM" value="5"/>
 </part>
 <part name="LOGO1" library="parkers_parts" deviceset="DP_LOGO" device="SMALL"/>
 <part name="LOGO2" library="parkers_parts" deviceset="DP_LOGO" device="MICRO"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO3" library="parkers_parts" deviceset="DP_LOGO" device="SUPERDOLLYBOARDLOGO"/>
 <part name="C21" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="CG5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
-<part name="CG6" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG5" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG6" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="R23" library="parkers_parts" deviceset="RESISTOR" device="0402" value="5K"/>
 <part name="U11" library="at90usb" deviceset="AT90USB647-*" device="AU" value="AT90USB646-AU"/>
 <part name="R22" library="parkers_parts" deviceset="RESISTOR" device="0402" value="0"/>
@@ -15398,14 +15398,14 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4K"/>
 <part name="U1" library="at90usb" deviceset="AT90USB647-*" device="MU" value="AT90USB646-MU"/>
 <part name="D2" library="parkers_parts" deviceset="DIODE" device="SOD-128" value="PMEG4010EP,115"/>
-<part name="CG4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
-<part name="CG7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG4" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG7" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="U10" library="parkers_parts" deviceset="IP4234CZ6" device="SOT-457" value="IP4234CZ6"/>
-<part name="CG1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="C14" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="J6" library="parkers_parts" deviceset="TRS_STEREO_JACK" device="SJ1-2503A" value="SJ1-2503A"/>
-<part name="CG8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
-<part name="CG9" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG8" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
+<part name="CG9" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="C12" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
 <part name="R25" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="U3" library="PP_PowerIC" deviceset="BTM7755" device="PG-DSO-36-29" value="BTM7755"/>
@@ -15420,12 +15420,12 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R32" library="parkers_parts" deviceset="RESISTOR" device="0402" value="4.7K"/>
 <part name="R33" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R34" library="PP_Passives" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="CG10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="TPD1E10B06DPYR"/>
+<part name="CG10" library="parkers_parts" deviceset="RESISTOR" device="0402" value="CG0402MLC-05LG"/>
 <part name="AUX_2" library="PP_Connectors" deviceset="PH_1X08" device="1.27MM_PTH"/>
 <part name="U8" library="PP_AnalogIC" deviceset="LMP8640" device="TSOT-6" value="LMP8640MK-F/NOPB"/>
 <part name="C22" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="R35" library="parkers_parts" deviceset="RESISTOR" device="0402" value="20K"/>
-<part name="C23" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
+<part name="C20" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
 <part name="R36" library="PP_Passives" deviceset="RESISTOR" device="1206" value="LRF1206-LF-R006JT"/>
 <part name="U12" library="PP_DiscreteSemi" deviceset="MOSFET_P-CHANNEL_SINGLE" device="P3-POWER" value="FDS6681Z"/>
 <part name="R37" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
@@ -15438,6 +15438,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="C18" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="U4" library="PP_PowerIC" deviceset="FIXED_VOLTAGE_REG" device="DPAK-3" value="MC78M05CDTG"/>
 <part name="J7" library="PP_Connectors" deviceset="PH_1X06" device="FFC" value="HFW6R-2STE1LF"/>
+<part name="U15" library="PP_PowerIC" deviceset="FIXED_VOLTAGE_REG" device="DPAK-3" value="MC78M05CDTG"/>
 </parts>
 <sheets>
 <sheet>
@@ -15578,7 +15579,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <instance part="U8" gate="G$1" x="271.78" y="33.02"/>
 <instance part="C22" gate="G$1" x="289.56" y="50.8"/>
 <instance part="R35" gate="G$1" x="289.56" y="38.1" rot="R180"/>
-<instance part="C23" gate="G$1" x="297.18" y="50.8"/>
+<instance part="C20" gate="G$1" x="297.18" y="50.8"/>
 <instance part="R36" gate="G$1" x="266.7" y="58.42"/>
 <instance part="U12" gate="G$1" x="-17.78" y="-10.16" rot="R90"/>
 <instance part="R37" gate="G$1" x="-17.78" y="-33.02" rot="R90"/>
@@ -15597,6 +15598,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 </instance>
 <instance part="U4" gate="G$1" x="30.48" y="15.24"/>
 <instance part="J7" gate="G$1" x="157.48" y="119.38" rot="MR180"/>
+<instance part="U15" gate="G$1" x="30.48" y="-15.24"/>
 </instances>
 <busses>
 </busses>
@@ -15775,6 +15777,11 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <pinref part="U4" gate="G$1" pin="OUT"/>
 <wire x1="43.18" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
 <junction x="50.8" y="15.24"/>
+</segment>
+<segment>
+<pinref part="U15" gate="G$1" pin="OUT"/>
+<wire x1="40.64" y1="-15.24" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
+<label x="43.18" y="-15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16053,7 +16060,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="289.56" y1="53.34" x2="289.56" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="55.88" x2="294.64" y2="55.88" width="0.1524" layer="91"/>
 <label x="292.1" y="55.88" size="0.8128" layer="95" font="vector"/>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="53.34" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="55.88" x2="294.64" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -16089,6 +16096,11 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <junction x="50.8" y="0"/>
 <pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="30.48" y1="5.08" x2="30.48" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U15" gate="G$1" pin="GND"/>
+<wire x1="30.48" y1="-25.4" x2="30.48" y2="-30.48" width="0.1524" layer="91"/>
+<label x="30.48" y="-30.48" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="AREF" class="4">
@@ -16134,11 +16146,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="-7.62" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="CATHODE"/>
 <wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D2" gate="G$1" pin="CATHODE"/>
-<wire x1="388.62" y1="132.08" x2="393.7" y2="132.08" width="0.1524" layer="91"/>
-<label x="391.16" y="132.08" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
 <label x="10.16" y="15.24" size="0.8128" layer="95"/>
@@ -17412,7 +17419,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 </segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="38.1" x2="297.18" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="38.1" x2="297.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="38.1" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
@@ -17675,6 +17682,18 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <pinref part="D1" gate="G$1" pin="ANODE"/>
 <wire x1="-17.78" y1="-22.86" x2="-7.62" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-22.86" x2="-7.62" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="12VB_D" class="1">
+<segment>
+<pinref part="D2" gate="G$1" pin="CATHODE"/>
+<wire x1="388.62" y1="132.08" x2="393.7" y2="132.08" width="0.1524" layer="91"/>
+<label x="391.16" y="132.08" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U15" gate="G$1" pin="IN"/>
+<wire x1="20.32" y1="-15.24" x2="15.24" y2="-15.24" width="0.1524" layer="91"/>
+<label x="15.24" y="-15.24" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
