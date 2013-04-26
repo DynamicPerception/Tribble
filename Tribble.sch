@@ -488,8 +488,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="5" x="1.3" y="0" dx="0.4" dy="1.35" layer="1" rot="R180"/>
 <smd name="S3" x="-3.2" y="0" dx="1.4" dy="1.6" layer="1" rot="R90"/>
 <smd name="S4" x="3.2" y="0" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<pad name="S2" x="3.3" y="-2.675" drill="1.2" shape="long" rot="R180"/>
-<pad name="S1" x="-3.3" y="-2.675" drill="1.2" shape="long" rot="R180"/>
+<pad name="S2" x="3.3" y="-2.675" drill="0.9" shape="long" rot="R180"/>
+<pad name="S1" x="-3.3" y="-2.675" drill="0.9" shape="long" rot="R180"/>
 <wire x1="-4.125" y1="-4.125" x2="4.125" y2="-4.125" width="0.127" layer="21"/>
 <text x="-4" y="1" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
