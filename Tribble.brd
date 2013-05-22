@@ -16145,30 +16145,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="0.4" y1="1" x2="0.4" y2="1.6" width="0.127" layer="21"/>
 <text x="-2" y="1.8" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="SOD-123">
-<description>SOD-123 Footprint</description>
-<smd name="1" x="-1.27" y="0" dx="1.3" dy="1.8" layer="1"/>
-<smd name="2" x="1.73" y="0" dx="1.3" dy="1.8" layer="1"/>
-<wire x1="-2.1" y1="-1.1" x2="-0.4" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="-1.1" x2="-0.2" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.1" y1="-1.1" x2="0" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.1" x2="2.6" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-1.1" x2="2.6" y2="1.1" width="0.127" layer="21"/>
-<wire x1="2.6" y1="1.1" x2="0" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.1" y1="1.1" x2="-0.2" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="1.1" x2="-0.4" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="1.1" x2="-2.1" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-2.1" y1="1.1" x2="-2.1" y2="-1.1" width="0.127" layer="21"/>
-<text x="-2" y="1.2" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<wire x1="-0.4" y1="1.1" x2="-0.4" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="-1.1" x2="-0.3" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="-1.1" x2="-0.3" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="1.1" x2="-0.2" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="1.1" x2="-0.2" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="-1.1" x2="-0.1" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.1" y1="-1.1" x2="-0.1" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.1" y1="1.1" x2="0" y2="1.1" width="0.127" layer="21"/>
-<wire x1="0" y1="1.1" x2="0" y2="-1.1" width="0.127" layer="21"/>
+<package name="SOD-128">
+<smd name="CATHODE" x="-2.2" y="0" dx="1.2" dy="1.9" layer="1" rot="R180"/>
+<smd name="ANODE" x="2.2" y="0" dx="1.2" dy="1.9" layer="1" rot="R180"/>
+<wire x1="-1" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="1.5" x2="3.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="-3.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<text x="-3.5" y="2" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -16541,7 +16528,7 @@ design rules under a new name.</description>
 <element name="PWR" library="PP_Connectors" package="DC_JACK_PTH_TIGHT" value="KLDX-0202-A-LT" x="-66" y="14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-73.21" y="17.33" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="X1" library="kyocera-crystals" package="3.2X2.5MM" value="CX3225SB16000D0FLJZZ" x="-21.5" y="3" smashed="yes" rot="R135">
+<element name="X1" library="kyocera-crystals" package="3.2X2.5MM" value="TSX-3225 16.0000MF10U-B0" x="-21.5" y="3" smashed="yes" rot="R135">
 <attribute name="NAME" x="-22.112025" y="1.7086875" size="0.8128" layer="25" rot="R315"/>
 </element>
 <element name="C3" library="SparkFun" package="C0402" value="6pF" x="-21" y="6" smashed="yes" rot="R315">
@@ -16629,10 +16616,10 @@ design rules under a new name.</description>
 <element name="J3" library="parkers_parts" package="SJ1-2503A" value="SJ1-2503A" x="30.75" y="18.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.5" y="17.95" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG2" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="30" y="8" smashed="yes" rot="R90">
+<element name="CG2" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="30" y="8" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.011" y="5.9485" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG3" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="32" y="8" smashed="yes" rot="R90">
+<element name="CG3" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="32" y="8" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.761" y="7.6985" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="MOT0" library="PP_Connectors" package="DC_JACK_PTH_TIGHT" value="KLDX-0202-B-LT" x="47.5" y="14" rot="R180"/>
@@ -16679,16 +16666,16 @@ design rules under a new name.</description>
 <element name="C21" library="parkers_parts" package="0402_CAP" value=".1uF" x="1.5" y="-15" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.011" y="-15.3015" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG5" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="-31.25" y="6.75" smashed="yes" rot="R270">
+<element name="CG5" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="-31.25" y="6.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="-30.489" y="6.9485" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG6" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="-39" y="7.25" smashed="yes" rot="R90">
+<element name="CG6" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="-39" y="7.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="-39.739" y="8.4485" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="R23" library="parkers_parts" package="0402_RES" value="5K" x="-30.75" y="-5.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="-31.739" y="-4.0515" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="U11" library="at90usb" package="TQFP64" value="AT90USB646-AU" x="-13" y="-7" smashed="yes" rot="R225"/>
+<element name="U11" library="at90usb" package="TQFP64" value="AT90USB1287-AU" x="-13" y="-7" smashed="yes" rot="R225"/>
 <element name="R22" library="parkers_parts" package="0402_RES" value="0" x="26.5" y="11.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.511" y="12.9485" size="0.8128" layer="25" font="vector"/>
 </element>
@@ -16711,19 +16698,19 @@ design rules under a new name.</description>
 <element name="R4" library="parkers_parts" package="0402_RES" value="4K" x="14.5" y="-11" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.011" y="-11.3015" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="U1" library="at90usb" package="MLF64" value="AT90USB646-MU" x="-13" y="-7" smashed="yes" rot="R225">
+<element name="U1" library="at90usb" package="MLF64" value="AT90USB1287-MU" x="-13" y="-7" smashed="yes" rot="R225">
 <attribute name="NAME" x="-2.940303125" y="-6.770565625" size="0.8128" layer="25" font="vector" rot="R315"/>
 </element>
 <element name="D2" library="parkers_parts" package="SOD-128" value="PMEG6010EP,115" x="-56.500003125" y="0.750003125" smashed="yes" rot="R90">
 <attribute name="NAME" x="-58" y="-3.75" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG4" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="-34.75" y="-9.5" smashed="yes" rot="R270">
+<element name="CG4" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="-34.75" y="-9.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-34.989" y="-11.5515" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG7" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="-37.5" y="-12" smashed="yes">
+<element name="CG7" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="-37.5" y="-12" smashed="yes">
 <attribute name="NAME" x="-36.511" y="-12.6985" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="CG1" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="-40.75" y="4.5" smashed="yes" rot="R180">
+<element name="CG1" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="-40.75" y="4.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="-44.239" y="4.1985" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C14" library="parkers_parts" package="0402_CAP" value=".1uF" x="14.5" y="-9.75" smashed="yes">
@@ -16732,10 +16719,10 @@ design rules under a new name.</description>
 <element name="J6" library="parkers_parts" package="SJ1-2503A" value="SJ1-2503A" x="10.5" y="18.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="13" y="17.8" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG8" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="15.249996875" y="10.250003125" smashed="yes" rot="R90">
+<element name="CG8" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="15.249996875" y="10.250003125" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.261003125" y="11.698503125" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="CG9" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="13.999996875" y="10.250003125" smashed="yes" rot="R90">
+<element name="CG9" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="13.999996875" y="10.250003125" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.011003125" y="7.948503125" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C12" library="PP_Passives" package="6.3MM_CAP_SMD" value="100uF" x="75.500003125" y="-22" smashed="yes" rot="R90">
@@ -16774,7 +16761,7 @@ design rules under a new name.</description>
 <element name="R34" library="PP_Passives" package="0805" value="10K" x="57.250003125" y="-12.000003125" smashed="yes" rot="MR90">
 <attribute name="NAME" x="58.48900625" y="-14.5515" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="CG10" library="parkers_parts" package="0402_RES" value="CG0402MLC-05LG" x="19.25" y="6.25" smashed="yes" rot="R270">
+<element name="CG10" library="parkers_parts" package="0402_RES" value="B72590D50H260" x="19.25" y="6.25" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.761" y="5.4485" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="U8" library="PP_AnalogIC" package="TSOT-6" value="LMP8640MK-F/NOPB" x="16.75" y="-6.5" smashed="yes" rot="R270">
@@ -16790,7 +16777,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.511" y="-6.801503125" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="R36" library="PP_Passives" package="1206" value="LRF1206-LF-R006JT" x="17" y="-24" rot="MR180"/>
-<element name="U12" library="PP_DiscreteSemi" package="DSO-8" value="FDS6681Z" x="-61.750003125" y="0.5"/>
+<element name="U12" library="PP_DiscreteSemi" package="DSO-8" value="FDS6679AZ" x="-61.750003125" y="0.5"/>
 <element name="R37" library="parkers_parts" package="0402_RES" value="10K" x="-59.750003125" y="-4.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="-57.989003125" y="-4.8015" size="0.8128" layer="25" font="vector"/>
 </element>
@@ -16823,7 +16810,7 @@ design rules under a new name.</description>
 <element name="R39" library="parkers_parts" package="0402_RES" value="22" x="21.25" y="6.25" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.761" y="7.3235" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="D3" library="PP_Passives" package="SOD-123" value="PMEG3010BER,115" x="26.75" y="7" smashed="yes" rot="R90">
+<element name="D3" library="PP_Passives" package="SOD-128" value="PMEG6010EP,115" x="26.75" y="7" smashed="yes" rot="R90">
 <attribute name="NAME" x="28" y="8.7" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="F2" library="PP_Passives" package="1206" value="1206L025YR" x="24.25" y="3" smashed="yes" rot="R270">
@@ -19194,7 +19181,7 @@ design rules under a new name.</description>
 <contactref element="J1" pad="1"/>
 <contactref element="U11" pad="8"/>
 <contactref element="U10" pad="5"/>
-<contactref element="D3" pad="2"/>
+<contactref element="D3" pad="ANODE"/>
 <wire x1="22.05" y1="15.46" x2="22.05" y2="12.7" width="0.254" layer="1"/>
 <wire x1="22.05" y1="12.7" x2="23.25" y2="11.5" width="0.254" layer="1"/>
 <wire x1="23.25" y1="11.5" x2="23.25" y2="11.25" width="0.254" layer="1"/>
@@ -19220,7 +19207,7 @@ design rules under a new name.</description>
 <via x="24" y="9" extent="1-16" drill="0.6"/>
 <wire x1="24" y1="9" x2="23.75" y2="9" width="0.254" layer="1"/>
 <wire x1="23.75" y1="9" x2="23" y2="9.75" width="0.254" layer="1"/>
-<wire x1="26.75" y1="8.73" x2="25.98" y2="9" width="0.254" layer="1"/>
+<wire x1="26.75" y1="9.2" x2="25.98" y2="9" width="0.254" layer="1"/>
 <wire x1="25.98" y1="9" x2="24" y2="9" width="0.254" layer="1"/>
 <contactref element="U16" pad="3"/>
 <contactref element="C23" pad="2"/>
@@ -19260,12 +19247,13 @@ design rules under a new name.</description>
 <wire x1="21.25" y1="7.35" x2="21.25" y2="6.9" width="0.254" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="D3" pad="1"/>
+<contactref element="D3" pad="CATHODE"/>
 <contactref element="F2" pad="1"/>
 <wire x1="24.42" y1="4.4" x2="24.25" y2="4.4" width="0.254" layer="1"/>
 <wire x1="24.42" y1="4.4" x2="24.25" y2="4.4" width="0.3048" layer="1"/>
-<wire x1="26.75" y1="5.73" x2="25.58" y2="5.73" width="0.3048" layer="1"/>
-<wire x1="25.58" y1="5.73" x2="24.25" y2="4.4" width="0.3048" layer="1"/>
+<wire x1="24.58" y1="4.73" x2="24.25" y2="4.4" width="0.3048" layer="1"/>
+<wire x1="26.75" y1="4.8" x2="24.25" y2="4.8" width="0.254" layer="1"/>
+<wire x1="24.25" y1="4.8" x2="24.25" y2="4.4" width="0.254" layer="1"/>
 </signal>
 <signal name="PE7">
 <contactref element="R40" pad="2"/>
@@ -19369,62 +19357,6 @@ design rules under a new name.</description>
 <wire x1="-30.5" y1="0.25" x2="-30.15" y2="0.25" width="0.254" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,886d139786423057"/>
-<approved hash="4,1,946cdb0c032659a3"/>
-<approved hash="4,1,b873611eb4e39d1b"/>
-<approved hash="4,1,ea532b1d28fcf125"/>
-<approved hash="4,1,5171d8b61f19be3b"/>
-<approved hash="19,1,e9b2e237240a2f8f"/>
-<approved hash="19,1,779cb01b207e6702"/>
-<approved hash="5,1,06863b9a010a9ec0"/>
-<approved hash="5,1,ee4892a15e055a08"/>
-<approved hash="5,1,1307f653d8588d37"/>
-<approved hash="5,1,0ce576d89dc25e78"/>
-<approved hash="5,1,a42e1b936931426b"/>
-<approved hash="5,1,b57b76ef17fc4216"/>
-<approved hash="5,1,17d91d32a0d461dd"/>
-<approved hash="5,1,d8b8f1327f54807c"/>
-<approved hash="5,1,14122fb483ea7c09"/>
-<approved hash="5,1,9c0323ebf9a71904"/>
-<approved hash="5,1,3a1195cdd8f182c0"/>
-<approved hash="5,1,94fb92235d368e36"/>
-<approved hash="5,1,2e7c9f5bd6882166"/>
-<approved hash="5,1,f749ce285ad8a9a6"/>
-<approved hash="5,1,900b063af2e20d9f"/>
-<approved hash="5,1,2cd58fd0e143139a"/>
-<approved hash="5,1,2fc45ca6bd65cdd5"/>
-<approved hash="5,1,43150aef0b555d6d"/>
-<approved hash="5,1,a7022af62484b8d8"/>
-<approved hash="5,1,f8187269006dc688"/>
-<approved hash="5,1,8249178a4267cfaf"/>
-<approved hash="5,1,da5678d2c1206aaf"/>
-<approved hash="5,1,aba71cad87ed7fe1"/>
-<approved hash="5,1,dcaa4f8552ada5e4"/>
-<approved hash="5,1,a61e817bc7806f3f"/>
-<approved hash="4,16,886d139786423057"/>
-<approved hash="4,16,946cdb0c032659a3"/>
-<approved hash="4,16,b873611eb4e39d1b"/>
-<approved hash="4,16,ea532b1d28fcf125"/>
-<approved hash="4,16,5171d8b61f19be3b"/>
-<approved hash="19,16,e9b2e237240a2f8f"/>
-<approved hash="19,16,f1da8b574d5e3723"/>
-<approved hash="5,16,f9ecd65cea97b056"/>
-<approved hash="5,16,8bfd882b8bcf8911"/>
-<approved hash="5,16,2f19005c4e9714a3"/>
-<approved hash="5,16,0082585b8d88a620"/>
-<approved hash="5,16,ca91925b79885233"/>
-<approved hash="5,16,14f83bdda297f8c3"/>
-<approved hash="5,16,531b486b4acf52ff"/>
-<approved hash="5,16,9e6a8a3c88d09d8e"/>
-<approved hash="5,16,4af765ddde9784cc"/>
-<approved hash="5,16,db7083dab5889e53"/>
-<approved hash="5,16,ac85f5daa98883a6"/>
-<approved hash="5,16,eadfc45dde978564"/>
-<approved hash="5,16,10ca3e5d8a97d171"/>
-<approved hash="5,16,0f5d565ae988c3fe"/>
-<approved hash="5,16,d962805a4d8867c1"/>
-</errors>
 </board>
 </drawing>
 </eagle>
