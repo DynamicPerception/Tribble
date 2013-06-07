@@ -13095,7 +13095,7 @@
 <text x="2.75" y="7.75" size="0.8128" layer="25" font="vector">U2</text>
 <text x="-40" y="-25.5" size="0.8128" layer="21" font="vector">dynamicperception.com</text>
 <text x="-40" y="-24" size="0.8128" layer="21" font="vector">Dynamic Perception LLC</text>
-<text x="-22" y="-25.5" size="0.8128" layer="21" font="vector">Tribble REV 7</text>
+<text x="-22" y="-25.5" size="0.8128" layer="21" font="vector">Tribble REV 8</text>
 <text x="-22" y="-24" size="0.8128" layer="21" font="vector">(c) Copyright 2013</text>
 <wire x1="-42.75" y1="-13" x2="-42" y2="-13" width="0.254" layer="21"/>
 <wire x1="-42" y1="-13" x2="-42" y2="-14" width="0.254" layer="21"/>
@@ -16157,6 +16157,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
 <text x="-3.5" y="2" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="5MM_CAP_SMD">
+<smd name="P" x="-3.25" y="0" dx="0.65" dy="4.4" layer="1" rot="R90"/>
+<smd name="N" x="3.25" y="0" dx="0.65" dy="4.4" layer="1" rot="R90"/>
+<wire x1="2.65" y1="2.65" x2="-1.713084375" y2="2.65" width="0.127" layer="21"/>
+<wire x1="-1.713084375" y1="2.65" x2="-2.65" y2="1.713084375" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="1.713084375" x2="-2.65" y2="0.6625" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-0.6625" x2="-2.65" y2="-1.713084375" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-1.713084375" x2="-1.713084375" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="-1.713084375" y1="-2.65" x2="2.65" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="2.65" y1="-2.65" x2="2.65" y2="-0.6625" width="0.127" layer="21"/>
+<wire x1="2.65" y1="0.6625" x2="2.65" y2="2.65" width="0.127" layer="21"/>
+<text x="-2.65" y="3.3125" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="PP_PowerIC">
@@ -16652,13 +16665,13 @@ design rules under a new name.</description>
 <element name="R1" library="parkers_parts" package="0402_RES" value="4.7K" x="-19.75" y="-19.750003125" smashed="yes" rot="R90">
 <attribute name="NAME" x="-20.239003125" y="-18.3015" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="D1" library="parkers_parts" package="SOD-123" value="MMSZ5240C-V-GS08" x="-64.000003125" y="-5.000003125" smashed="yes">
-<attribute name="NAME" x="-62.75" y="-7.25" size="0.8128" layer="25" font="vector"/>
+<element name="D1" library="parkers_parts" package="SOD-123" value="MMSZ5240C-V-GS08" x="-62.750003125" y="-5.000003125" smashed="yes">
+<attribute name="NAME" x="-60" y="-6" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="U$1" library="parkers_parts" package="DP_FRAME" value="DP_FRAME" x="31.250003125" y="5.25">
 <attribute name="DNAME" value="Parker Dillmann" x="31.250003125" y="5.25" size="1.778" layer="27" display="off"/>
 <attribute name="PNAME" value="MX-3" x="31.250003125" y="5.25" size="1.778" layer="27" display="off"/>
-<attribute name="REVNUM" value="7" x="31.250003125" y="5.25" size="1.778" layer="27" display="off"/>
+<attribute name="REVNUM" value="8" x="31.250003125" y="5.25" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LOGO1" library="parkers_parts" package="DP_LOGO_SMALL" value="DP_LOGOSMALL" x="44.5" y="-7.75" rot="MR0"/>
 <element name="LOGO2" library="parkers_parts" package="DP_LOGO_MICRO" value="DP_LOGOMICRO" x="64.50000625" y="-5.25"/>
@@ -16778,8 +16791,8 @@ design rules under a new name.</description>
 </element>
 <element name="R36" library="PP_Passives" package="1206" value="LRF1206-LF-R006JT" x="17" y="-24" rot="MR180"/>
 <element name="U12" library="PP_DiscreteSemi" package="DSO-8" value="FDS6679AZ" x="-61.750003125" y="0.5"/>
-<element name="R37" library="parkers_parts" package="0402_RES" value="10K" x="-59.750003125" y="-4.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-57.989003125" y="-4.8015" size="0.8128" layer="25" font="vector"/>
+<element name="R37" library="parkers_parts" package="0402_RES" value="10K" x="-58.750003125" y="-4.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="-57.239003125" y="-5.0515" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="U9" library="PP_Sensors" package="SOT-23-3" value="MCP9701T-E/TT" x="26.75" y="-13.25" rot="R270"/>
 <element name="U13" library="PP_Sensors" package="SOT-23-3" value="MCP9701T-E/TT" x="49.000003125" y="-13.25" rot="R270"/>
@@ -16790,8 +16803,8 @@ design rules under a new name.</description>
 <element name="C16" library="parkers_parts" package="0402_CAP" value=".1uF" x="-69.750003125" y="-16.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="-71.239003125" y="-18.8015" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C17" library="SparkFun" package="EIA3216" value="2.2uF" x="-66.250003125" y="-8.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="-63.540003125" y="-9.119" size="0.8128" layer="25" font="vector"/>
+<element name="C17" library="SparkFun" package="EIA3216" value="2.2uF" x="-63.250003125" y="-8.25" smashed="yes" rot="R180">
+<attribute name="NAME" x="-60.540003125" y="-7.869" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C18" library="SparkFun" package="EIA3216" value="10uF" x="-64.750003125" y="-19.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="-62.210003125" y="-20.631" size="0.8128" layer="25" font="vector" rot="R180"/>
@@ -16831,16 +16844,20 @@ design rules under a new name.</description>
 <element name="C23" library="parkers_parts" package="0402_CAP" value=".1uF" x="24.75" y="11.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.011" y="11.9485" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="FB1" library="parkers_parts" package="0402_RES" value="LI0402C470R-10" x="-32.5" y="-8" smashed="yes">
+<element name="FB1" library="parkers_parts" package="0402_RES" value="HZ0402B102R-10" x="-32.5" y="-8" smashed="yes">
 <attribute name="NAME" x="-31.239" y="-8.5515" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="FB2" library="parkers_parts" package="0402_RES" value="LI0402C470R-10" x="-29.5" y="-1.125" smashed="yes">
+<element name="FB2" library="parkers_parts" package="0402_RES" value="HZ0402B102R-10" x="-29.5" y="-1.125" smashed="yes">
 <attribute name="NAME" x="-28.239" y="-1.9265" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="FB3" library="parkers_parts" package="0402_RES" value="LI0402C470R-10" x="-29.5" y="0.25" smashed="yes">
+<element name="FB3" library="parkers_parts" package="0402_RES" value="HZ0402B102R-10" x="-29.5" y="0.25" smashed="yes">
 <attribute name="NAME" x="-28.239" y="-0.5515" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C24" library="SparkFun" package="EIA3216" value="10uF" x="26.5" y="-2.25" rot="R180"/>
+<element name="C25" library="PP_Passives" package="6.3MM_CAP_SMD" value="100uF" x="-69.25" y="-5.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="-72.9" y="-9.985" size="0.8128" layer="25" font="vector"/>
+</element>
+<element name="C26" library="PP_Passives" package="5MM_CAP_SMD" value="100uF" x="-51.5" y="-12.5" rot="R90"/>
 </elements>
 <signals>
 <signal name="+5V" class="3">
@@ -17015,7 +17032,8 @@ design rules under a new name.</description>
 <contactref element="U4" pad="2"/>
 <wire x1="-69.750003125" y1="-16.1" x2="-69.685003125" y2="-16.035" width="0.3048" layer="1"/>
 <wire x1="-69.685003125" y1="-16.035" x2="-66.750003125" y2="-16.035" width="0.3048" layer="1"/>
-<wire x1="-66.150003125" y1="-19.25" x2="-63.900003125" y2="-21.5" width="0.8128" layer="1"/>
+<wire x1="-66.150003125" y1="-19.25" x2="-63.95" y2="-21.450003125" width="0.8128" layer="1"/>
+<wire x1="-63.95" y1="-21.450003125" x2="-63.900003125" y2="-21.5" width="0.8128" layer="1"/>
 <wire x1="-63.900003125" y1="-21.5" x2="-62.000003125" y2="-21.5" width="0.8128" layer="1"/>
 <wire x1="-62.000003125" y1="-21.5" x2="-60.595003125" y2="-20.095" width="0.8128" layer="1"/>
 <wire x1="-60.595003125" y1="-20.095" x2="-60.000003125" y2="-20.095" width="0.8128" layer="1"/>
@@ -17036,8 +17054,9 @@ design rules under a new name.</description>
 <wire x1="-60.000003125" y1="-21.75" x2="-59.975003125" y2="-21.75" width="0.4064" layer="1"/>
 <wire x1="-55.905003125" y1="-20.095" x2="-54.345003125" y2="-20.095" width="0.8128" layer="1"/>
 <wire x1="-50.290003125" y1="-16.04" x2="-46.77" y2="-16.04" width="0.8128" layer="1"/>
-<wire x1="-54.345003125" y1="-20.095" x2="-50.290003125" y2="-16.04" width="0.8128" layer="1"/>
+<wire x1="-54.345003125" y1="-20.095" x2="-51.375" y2="-17.124996875" width="0.8128" layer="1"/>
 <contactref element="F2" pad="2"/>
+<wire x1="-51.375" y1="-17.124996875" x2="-50.290003125" y2="-16.04" width="0.8128" layer="1"/>
 <wire x1="2.25" y1="-9.25" x2="7.5" y2="-4" width="0.6096" layer="16"/>
 <wire x1="7.5" y1="-4" x2="15" y2="-4" width="0.6096" layer="16"/>
 <via x="15" y="-4" extent="1-16" drill="0.6"/>
@@ -17081,6 +17100,9 @@ design rules under a new name.</description>
 <wire x1="-6.946696875" y1="-7.75" x2="-5.25" y2="-7.75" width="0.1778" layer="1"/>
 <wire x1="-5.25" y1="-7.75" x2="-3.764715625" y2="-7.75" width="0.1778" layer="1"/>
 <wire x1="-3.764715625" y1="-7.75" x2="-3.241925" y2="-8.272790625" width="0.1778" layer="1"/>
+<contactref element="C26" pad="P"/>
+<wire x1="-51.5" y1="-15.75" x2="-51.5" y2="-16.999996875" width="0.6096" layer="1"/>
+<wire x1="-51.5" y1="-16.999996875" x2="-51.375" y2="-17.124996875" width="0.6096" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="PWR" pad="GNDBREAK"/>
@@ -17252,7 +17274,6 @@ design rules under a new name.</description>
 <via x="-55.000003125" y="-14.5" extent="1-16" drill="0.6"/>
 <via x="-55.000003125" y="-13" extent="1-16" drill="0.6"/>
 <via x="-55.000003125" y="-11.5" extent="1-16" drill="0.6"/>
-<via x="-61.250003125" y="-9.75" extent="1-16" drill="0.6"/>
 <via x="-59.750003125" y="-9.75" extent="1-16" drill="0.6"/>
 <via x="-58.250003125" y="-9.75" extent="1-16" drill="0.6"/>
 <via x="-56.750003125" y="-9.75" extent="1-16" drill="0.6"/>
@@ -17290,6 +17311,10 @@ design rules under a new name.</description>
 <contactref element="C24" pad="C"/>
 <via x="27" y="-4.25" extent="1-16" drill="0.6"/>
 <via x="29.25" y="-4.25" extent="1-16" drill="0.6"/>
+<contactref element="C26" pad="N"/>
+<wire x1="-73" y1="-3.75" x2="-73" y2="-7" width="1.016" layer="1"/>
+<wire x1="-71" y1="-3.5" x2="-71" y2="-7.25" width="1.016" layer="1"/>
+<contactref element="C25" pad="NEG"/>
 </signal>
 <signal name="AREF" class="4">
 <contactref element="U11" pad="62"/>
@@ -17362,25 +17387,17 @@ design rules under a new name.</description>
 <via x="-66.750003125" y="-0.75" extent="1-16" drill="0.6"/>
 <via x="-68.000003125" y="-2" extent="1-16" drill="0.6"/>
 <via x="-68.000003125" y="-3.25" extent="1-16" drill="0.6"/>
-<via x="-68.000003125" y="-4.5" extent="1-16" drill="0.6"/>
 <via x="-66.750003125" y="-2" extent="1-16" drill="0.6"/>
 <via x="-66.750003125" y="-3.25" extent="1-16" drill="0.6"/>
-<via x="-68.000003125" y="-5.75" extent="1-16" drill="0.6"/>
 <via x="-66.750003125" y="0.5" extent="1-16" drill="0.6"/>
 <contactref element="C8" pad="1"/>
 <contactref element="C17" pad="A"/>
 <contactref element="U4" pad="1"/>
-<wire x1="-68.000003125" y1="-5.75" x2="-67.650003125" y2="-5.75" width="1.016" layer="1"/>
-<wire x1="-67.650003125" y1="-5.75" x2="-67.650003125" y2="-8.25" width="1.016" layer="1"/>
-<wire x1="-67.650003125" y1="-8.25" x2="-67.650003125" y2="-10.565" width="1.016" layer="1"/>
-<wire x1="-67.650003125" y1="-10.565" x2="-66.750003125" y2="-11.465" width="1.016" layer="1"/>
 <wire x1="-69.750003125" y1="-11.4" x2="-69.685003125" y2="-11.465" width="0.3048" layer="1"/>
 <wire x1="-69.685003125" y1="-11.465" x2="-66.750003125" y2="-11.465" width="0.3048" layer="1"/>
 <via x="-66.750003125" y="1.75" extent="1-16" drill="0.6"/>
 <via x="-68.000003125" y="3.5" extent="1-16" drill="0.6"/>
-<via x="-69.250003125" y="-2.5" extent="1-16" drill="0.6"/>
-<via x="-69.250003125" y="-3.75" extent="1-16" drill="0.6"/>
-<via x="-69.250003125" y="-5" extent="1-16" drill="0.6"/>
+<via x="-69.250003125" y="-3.25" extent="1-16" drill="0.6"/>
 <contactref element="F1" pad="2"/>
 <contactref element="D2" pad="CATHODE"/>
 <wire x1="-52.500003125" y1="-4.95" x2="-52.500003125" y2="-3.5" width="0.4064" layer="1"/>
@@ -17392,6 +17409,11 @@ design rules under a new name.</description>
 <contactref element="AUX2" pad="3"/>
 <wire x1="-54.895003125" y1="-21.75" x2="-55.000003125" y2="-21.855" width="0.4064" layer="16"/>
 <wire x1="-55.000003125" y1="-21.855" x2="-55.000003125" y2="-23.5" width="0.4064" layer="16"/>
+<contactref element="C25" pad="POS"/>
+<wire x1="-64.020003125" y1="-5.000003125" x2="-64.650003125" y2="-5.630003125" width="1.016" layer="1"/>
+<wire x1="-64.650003125" y1="-5.630003125" x2="-64.650003125" y2="-8.25" width="1.016" layer="1"/>
+<wire x1="-64.650003125" y1="-8.25" x2="-66.750003125" y2="-10.35" width="1.016" layer="1"/>
+<wire x1="-66.750003125" y1="-10.35" x2="-66.750003125" y2="-11.465" width="1.016" layer="1"/>
 </signal>
 <signal name="RD-">
 <contactref element="U11" pad="4"/>
@@ -19169,13 +19191,12 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="U12" pad="4"/>
 <contactref element="R37" pad="2"/>
-<wire x1="-60.480003125" y1="-2.4" x2="-60.480003125" y2="-4.42" width="0.254" layer="1"/>
-<wire x1="-60.480003125" y1="-4.42" x2="-60.400003125" y2="-4.5" width="0.254" layer="1"/>
 <contactref element="D1" pad="ANODE"/>
-<wire x1="-62.270003125" y1="-5.000003125" x2="-60.90000625" y2="-5.000003125" width="0.254" layer="1"/>
-<wire x1="-60.90000625" y1="-5.000003125" x2="-60.400003125" y2="-4.5" width="0.254" layer="1"/>
-</signal>
-<signal name="N$2">
+<wire x1="-61.020003125" y1="-5.000003125" x2="-60.90000625" y2="-5.000003125" width="0.254" layer="1"/>
+<wire x1="-60.480003125" y1="-2.4" x2="-59.400003125" y2="-3.48" width="0.254" layer="1"/>
+<wire x1="-59.400003125" y1="-3.48" x2="-59.400003125" y2="-4.5" width="0.254" layer="1"/>
+<wire x1="-59.400003125" y1="-4.5" x2="-59.90000625" y2="-5.000003125" width="0.254" layer="1"/>
+<wire x1="-59.90000625" y1="-5.000003125" x2="-61.020003125" y2="-5.000003125" width="0.254" layer="1"/>
 </signal>
 <signal name="V_USB">
 <contactref element="J1" pad="1"/>

@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="10" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="10" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="2" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="12" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -14086,6 +14086,19 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <wire x1="-3.81" y1="-11.938" x2="-3.81" y2="0.508" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="0.508" x2="-3.556" y2="0.508" width="0.127" layer="21"/>
 </package>
+<package name="5MM_CAP_SMD">
+<smd name="P" x="-3.25" y="0" dx="0.65" dy="4.4" layer="1" rot="R90"/>
+<smd name="N" x="3.25" y="0" dx="0.65" dy="4.4" layer="1" rot="R90"/>
+<wire x1="2.65" y1="2.65" x2="-1.713084375" y2="2.65" width="0.127" layer="21"/>
+<wire x1="-1.713084375" y1="2.65" x2="-2.65" y2="1.713084375" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="1.713084375" x2="-2.65" y2="0.6625" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-0.6625" x2="-2.65" y2="-1.713084375" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-1.713084375" x2="-1.713084375" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="-1.713084375" y1="-2.65" x2="2.65" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="2.65" y1="-2.65" x2="2.65" y2="-0.6625" width="0.127" layer="21"/>
+<wire x1="2.65" y1="0.6625" x2="2.65" y2="2.65" width="0.127" layer="21"/>
+<text x="-2.65" y="3.3125" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR_POLAR">
@@ -14206,6 +14219,15 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </technologies>
 </device>
 <device name="EEH-ZA1V271P" package="EEH-ZA1V271P">
+<connects>
+<connect gate="G$1" pin="NEG" pad="N"/>
+<connect gate="G$1" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM_SMD" package="5MM_CAP_SMD">
 <connects>
 <connect gate="G$1" pin="NEG" pad="N"/>
 <connect gate="G$1" pin="POS" pad="P"/>
@@ -15117,7 +15139,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="U$1" library="parkers_parts" deviceset="DP_FRAME" device="">
 <attribute name="DNAME" value="Parker Dillmann"/>
 <attribute name="PNAME" value="MX-3"/>
-<attribute name="REVNUM" value="7"/>
+<attribute name="REVNUM" value="8"/>
 </part>
 <part name="LOGO1" library="parkers_parts" deviceset="DP_LOGO" device="SMALL"/>
 <part name="LOGO2" library="parkers_parts" deviceset="DP_LOGO" device="MICRO"/>
@@ -15188,10 +15210,12 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <part name="R41" library="parkers_parts" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="U16" library="PP_DiscreteSemi" deviceset="MOSFET_P-CHANNEL_SINGLE" device="SOT-23" value="FDV304P"/>
 <part name="C23" library="parkers_parts" deviceset="CAP_NONPOL" device="0402" value=".1uF"/>
-<part name="FB1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="LI0402C470R-10"/>
-<part name="FB2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="LI0402C470R-10"/>
-<part name="FB3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="LI0402C470R-10"/>
+<part name="FB1" library="parkers_parts" deviceset="RESISTOR" device="0402" value="HZ0402B102R-10"/>
+<part name="FB2" library="parkers_parts" deviceset="RESISTOR" device="0402" value="HZ0402B102R-10"/>
+<part name="FB3" library="parkers_parts" deviceset="RESISTOR" device="0402" value="HZ0402B102R-10"/>
 <part name="C24" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
+<part name="C25" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="6.3MM_SMD" value="100uF"/>
+<part name="C26" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="5MM_SMD" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -15203,6 +15227,7 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="-129.54" y1="162.56" x2="10.16" y2="162.56" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="162.56" x2="431.8" y2="162.56" width="0.1524" layer="94"/>
 <wire x1="431.8" y1="162.56" x2="431.8" y2="149.86" width="0.1524" layer="94"/>
+<text x="406.4" y="-20.32" size="0.8128" layer="94" font="vector">CG = Chip Gaurd / ESD Protection</text>
 </plain>
 <instances>
 <instance part="PWR" gate="G$1" x="-35.56" y="-2.54"/>
@@ -15367,6 +15392,8 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <attribute name="NAME" x="67.056" y="8.255" size="0.8128" layer="95"/>
 <attribute name="VALUE" x="67.056" y="3.429" size="0.8128" layer="96"/>
 </instance>
+<instance part="C25" gate="G$1" x="-40.64" y="-25.4" rot="R270"/>
+<instance part="C26" gate="G$1" x="73.66" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -15523,6 +15550,10 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="58.42" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="15.24" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
 <junction x="58.42" y="15.24"/>
+<pinref part="C26" gate="G$1" pin="POS"/>
+<wire x1="66.04" y1="15.24" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="15.24" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
+<junction x="66.04" y="15.24"/>
 </segment>
 <segment>
 <pinref part="F2" gate="G$1" pin="P$2"/>
@@ -15853,12 +15884,21 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="66.04" y1="2.54" x2="66.04" y2="0" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="0" x2="58.42" y2="0" width="0.1524" layer="91"/>
 <junction x="58.42" y="0"/>
+<pinref part="C26" gate="G$1" pin="NEG"/>
+<wire x1="66.04" y1="0" x2="73.66" y2="0" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="0" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
+<junction x="66.04" y="0"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="EMITTER"/>
 <wire x1="25.4" y1="-30.48" x2="25.4" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-35.56" x2="30.48" y2="-35.56" width="0.1524" layer="91"/>
 <label x="27.94" y="-35.56" size="0.8128" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="C25" gate="G$1" pin="NEG"/>
+<wire x1="-45.72" y1="-25.4" x2="-50.8" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-50.8" y="-25.4" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="AREF" class="4">
@@ -15929,6 +15969,11 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <wire x1="391.16" y1="63.5" x2="381" y2="63.5" width="0.1524" layer="91"/>
 <label x="381" y="63.5" size="0.8128" layer="95" font="vector"/>
 <pinref part="AUX2" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="C25" gate="G$1" pin="POS"/>
+<wire x1="-33.02" y1="-25.4" x2="-38.1" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-35.56" y="-25.4" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="RD-" class="0">
@@ -17399,11 +17444,6 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Hi Current H-Br
 <pinref part="D1" gate="G$1" pin="ANODE"/>
 <wire x1="-15.24" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="-101.6" y1="-33.02" x2="-101.6" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
