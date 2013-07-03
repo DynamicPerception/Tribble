@@ -1,6 +1,6 @@
 Partlist
 
-Exported from Tribble.sch at 6/7/2013 2:51:20 PM
+Exported from Tribble.sch at 7/3/2013 11:14:58 AM
 
 EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
 
@@ -48,6 +48,7 @@ CG10     B72590D50H260            RESISTOR0402                    0402_RES      
 D1       MMSZ5240C-V-GS08         DIODESOD-123                    SOD-123                parkers_parts         1
 D2       PMEG6010EP,115           DIODESOD-128                    SOD-128                parkers_parts         1
 D3       PMEG6010EP,115           DIODESOD-128                    SOD-128                PP_Passives           1
+D4       P6SMB30CAT3G             DIODEDO-214AA                   DO-214AA               PP_Passives           1
 F1       MF-SM050-2-99            PTC_FUSE2920                    2920                   PP_Passives           1
 F2       1206L025YR               PTC_FUSE1206                    1206                   PP_Passives           1
 FB1      HZ0402B102R-10           RESISTOR0402                    0402_RES               parkers_parts         1
@@ -108,6 +109,10 @@ R38      22                       RESISTOR0402                    0402_RES      
 R39      22                       RESISTOR0402                    0402_RES               parkers_parts         1
 R40      100K                     RESISTOR0402                    0402_RES               parkers_parts         1
 R41      10K                      RESISTOR0402                    0402_RES               parkers_parts         1
+TVS1     ESD11B5.0ST5G            TVS_DIODEDSN-2                  DSN-2                  PP_Passives           1
+TVS2     ESD11B5.0ST5G            TVS_DIODEDSN-2                  DSN-2                  PP_Passives           1
+TVS3     ESD11B5.0ST5G            TVS_DIODEDSN-2                  DSN-2                  PP_Passives           1
+TVS4     ESD11B5.0ST5G            TVS_DIODEDSN-2                  DSN-2                  PP_Passives           1
 U1       AT90USB1287-MU           AT90USB647-MU                   MLF64                  at90usb               1
 U2       MMDT3904                 MMDT3904                        SOT363                 SparkFun-DiscreteSemi 1
 U3       BTM7755                  BTM7755PG-DSO-36-29             PG-DSO-36-29           PP_PowerIC            1
